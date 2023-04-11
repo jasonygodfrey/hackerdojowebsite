@@ -8,7 +8,7 @@ const MainBanner = () => {
 		<>  
       <FsLightbox
         toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
+        sources={["https://www.youtube.com/watch?v=mcg2By317ZI&autoplay=1"]}
       />
 
       <div 
@@ -48,7 +48,7 @@ const MainBanner = () => {
                     </p>
                     
                     <Link 
-                      href="/contact" 
+                      href="https://hackerdojo.spaces.nexudus.com/?public&" 
                       className="btn btn-primary"
                       data-aos="fade-in"
                       data-aos-duration="1200"
@@ -64,7 +64,7 @@ const MainBanner = () => {
                       data-aos-duration="1200"
                       data-aos-delay="500"
                     >
-                      <i className="fa-solid fa-play me-1"></i> How it works
+                      <i className="fa-solid fa-play me-1"></i> Who We Are
                     </button>
                   </div>
                 </div>

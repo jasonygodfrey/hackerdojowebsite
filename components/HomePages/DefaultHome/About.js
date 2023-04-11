@@ -7,7 +7,7 @@ const About = () => {
     <>
       <FsLightbox
         toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
+        sources={["https://www.youtube.com/watch?v=mcg2By317ZI"]}
       />
 
       <section className="about-area ptb-100">

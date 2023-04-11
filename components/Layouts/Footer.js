@@ -22,30 +22,48 @@ const Footer = () => {
                 </div>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
+                  "The Soul of Silicon Valley" - Financial Times
                 </p>
 
                 <ul className="social-links">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a href="https://www.facebook.com/hackerdojo/" target="_blank">
                       <i className="fa-brands fa-facebook-f"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/" target="_blank">
+                    <a href="https://twitter.com/hackerdojo" target="_blank">
                       <i className="fa-brands fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/company/hackerdojo/" target="_blank">
                       <i className="fa-brands fa-linkedin-in"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a href="https://www.instagram.com/hackerdojo/" target="_blank">
                       <i className="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://discord.gg/tvce5JtT" target="_blank">
+                      <i className="fa-brands fa-discord"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.meetup.com/hackerdojo/" target="_blank">
+                      <i className="fa-brands fa-meetup"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/@HackerDojo" target="_blank">
+                      <i className="fa-brands fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.twitch.tv/hackerdojotv" target="_blank">
+                      <i className="fa-brands fa-twitch"></i>
                     </a>
                   </li>
                 </ul>
@@ -141,19 +159,17 @@ const Footer = () => {
 
                 <ul className="get-in-touch">
                   <li>
-                    <i className="fa-solid fa-location-dot"></i> 2750 Quadra Street
-                    Victoria, Canada.
+                    <i className="fa-solid fa-location-dot"></i> 855 Maude Avenue
+Mountain View, CA 94043.
                   </li>
                   <li>
                     <i className="fa-solid fa-headset"></i>
-                    <a href="tel:+324-9442-515">+324-9442-515</a> 
-                    <br />
-                    <a href="tel:+324-9442-515">+324-9442-999</a>
+                    <a href="tel:+650-429-8605">(650) 429-8605</a> 
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:hello@pungent.com">hello@pungent.com</a>
-                    <a href="mailto:support@pungent.com">support@pungent.com</a>
+                    <a href="mailto:Tiyanna@hackerdojo.com">Tiyanna@hackerdojo.com</a>
+                    
                   </li>
                 </ul>
               </div>
@@ -165,6 +181,10 @@ const Footer = () => {
           <div className="container">
             <p>
               Copyright &copy; {currentYear} Hacker Dojo. All Rights Reserved.
+              <p>
+  Website by
+  <a href="https://jasongodfrey.dev" target="_blank" rel="noopener noreferrer"> jasongodfrey.dev</a>
+</p>
             </p>
           </div>
         </div>

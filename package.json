@@ -26,5 +26,8 @@
         "sweetalert2": "^11.7.2",
         "sweetalert2-react-content": "^5.0.7",
         "swiper": "^9.0.5"
+    },
+    "devDependencies": {
+        "@wixc3/react-board": "^2.1.3"
     }
 }
