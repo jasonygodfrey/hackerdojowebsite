@@ -26,41 +26,7 @@ const partnersData = [
     link: "#",
     aosDelay: "500",
   },
-  {
-    image: "/images/partners/partner6.png",
-    link: "#",
-    aosDelay: "600",
-  },
-  {
-    image: "/images/partners/partner7.png",
-    link: "#",
-    aosDelay: "700",
-  },
-  {
-    image: "/images/partners/partner8.png",
-    link: "#",
-    aosDelay: "800",
-  },
-  {
-    image: "/images/partners/partner9.png",
-    link: "#",
-    aosDelay: "900",
-  },
-  {
-    image: "/images/partners/partner10.png",
-    link: "#",
-    aosDelay: "1000",
-  },
-  {
-    image: "/images/partners/partner11.png",
-    link: "#",
-    aosDelay: "1100",
-  },
-  {
-    image: "/images/partners/partner12.png",
-    link: "#",
-    aosDelay: "1200",
-  },
+
 ];
 
 const Partner = () => {
@@ -69,10 +35,9 @@ const Partner = () => {
       <div className="partner-area pt-100 pb-60">
         <div className="container">
           <div className="section-title">
-            <h2>Trusted By</h2>
+            <h2>Partners and Sponsors</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Special thanks to our sponsors for their generous support, enabling us to continue providing high-quality educational content to Hacker Dojo.
             </p>
           </div>
 

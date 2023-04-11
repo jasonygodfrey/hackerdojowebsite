@@ -618,8 +618,8 @@ const Navbar = () => {
               </ul>
 
               <div className="others-options">
-                <Link href="/contact/" className="btn btn-primary">
-                  Get Started
+                <Link href="https://hackerdojo.spaces.nexudus.com/login" className="btn btn-primary">
+                  Sign In
                 </Link>
               </div>
             </div>

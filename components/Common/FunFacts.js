@@ -3,23 +3,23 @@ import React from "react";
 const funFactsData = [
   {
     iconName: "pe-7s-like",
-    number: "799",
+    number: "Learn",
     shortText:
-      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete",
+      "Be curious, learn from others, share your ideas. We are all about leveling up new skills and collaboration. Find mentors and get feedback on your ideas. Learn about the startups and other projects here. Check out our Meetup Page to attend the next event.",
     aosDelay: "100",
   },
   {
     iconName: "pe-7s-diamond",
-    number: "499",
+    number: "Play",
     shortText:
-      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete",
+      "Jump in the sandbox with other hackers, entrepreneurs, artist, makers, innovators, designers and scientists. You can drop in to enjoy some free coffee and free wifi for the day. Rock out in our Music Corner or attend Friday Socials. Come for a coding jam session.",
     aosDelay: "200",
   },
   {
     iconName: "pe-7s-portfolio",
-    number: "799",
+    number: "Build",
     shortText:
-      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete",
+      "Want to build something to save the world or solve a problem? Awesome, we have a tools and support. Hardware and software enthusiasts are encouraged to connect with us. Contribute to our Github or check out our Wiki to get started.",
     aosDelay: "300",
   },
 ];
@@ -39,9 +39,9 @@ const FunFacts = () => {
                     data-aos-duration="1200"
                     data-aos-delay={value.aosDelay}
                   >
-                    <i className={value.iconName}></i>
+                    
                     <h3>
-                      {value.number} <span>k</span>
+                      {value.number} <span></span>
                     </h3>
                     <p>{value.shortText}</p>
                   </div>

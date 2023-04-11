@@ -14,8 +14,8 @@ const CtaArea = () => {
                 data-aos-duration="1200"
                 data-aos-delay="200"
               >
-                <h3>Have a project in mind?</h3>
-                <p>Let's get to work</p>
+                <h3>Have an event in mind?</h3>
+                <p>Contact Our Events Coordinator!</p>
               </div>
             </div>
 

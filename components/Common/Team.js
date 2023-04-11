@@ -3,118 +3,56 @@ import React from "react";
 const teamMemberData = [
   {
     image: "/images/team/circle-team1.jpg",
-    name: "James White",
-    designation: "CEO & Founder",
+    name: "Emily Johnson",
+    designation: "Board Chair (2021-present)",
     aosDelay: "100",
 
     socialLinks: [
       {
         iconName: "fa-brands fa-linkedin-in",
-        url: "https://linkedin.com/",
-      },
-      {
-        iconName: "fa-brands fa-twitter",
-        url: "https://twitter.com/",
-      },
-      {
-        iconName: "fa-brands fa-facebook-f",
-        url: "https://facebook.com/",
-      },
-      {
-        iconName: "fa-brands fa-instagram",
-        url: "https://instagram.com/",
-      },
-      {
-        iconName: "fa-brands fa-dribbble",
-        url: "https://dribbble.com/",
+        url: "https://www.linkedin.com/in/emilymjohnson/",
       },
     ],
   },
   {
     image: "/images/team/circle-team2.jpg",
-    name: "Johnson Lee",
-    designation: "Backend Specialist",
+    name: "David Weekly ",
+    designation: "Cofounder of Hacker Dojo, Board Member, & Secretary (2009-present)",
     aosDelay: "200",
 
     socialLinks: [
       {
         iconName: "fa-brands fa-linkedin-in",
-        url: "https://linkedin.com/",
-      },
-      {
-        iconName: "fa-brands fa-twitter",
-        url: "https://twitter.com/",
-      },
-      {
-        iconName: "fa-brands fa-facebook-f",
-        url: "https://facebook.com/",
-      },
-      {
-        iconName: "fa-brands fa-instagram",
-        url: "https://instagram.com/",
-      },
-      {
-        iconName: "fa-brands fa-dribbble",
-        url: "https://dribbble.com/",
+        url: "https://www.linkedin.com/in/dweekly/",
       },
     ],
   },
   {
     image: "/images/team/circle-team3.jpg",
-    name: "Williams Smith",
-    designation: "Front-end Specialist",
+    name: "Olya Zarembo",
+    designation: "Board Member (2018-present)",
     aosDelay: "300",
 
     socialLinks: [
       {
         iconName: "fa-brands fa-linkedin-in",
-        url: "https://linkedin.com/",
+        url: "https://www.linkedin.com/in/olyaz/",
       },
-      {
-        iconName: "fa-brands fa-twitter",
-        url: "https://twitter.com/",
-      },
-      {
-        iconName: "fa-brands fa-facebook-f",
-        url: "https://facebook.com/",
-      },
-      {
-        iconName: "fa-brands fa-instagram",
-        url: "https://instagram.com/",
-      },
-      {
-        iconName: "fa-brands fa-dribbble",
-        url: "https://dribbble.com/",
-      },
+
     ],
   },
   {
     image: "/images/team/circle-team4.jpg",
-    name: "David Miller",
-    designation: "Reactjs Specialist",
+    name: "Tom Harrison",
+    designation: "Board Member (2020-present)",
     aosDelay: "400",
 
     socialLinks: [
       {
         iconName: "fa-brands fa-linkedin-in",
-        url: "https://linkedin.com/",
+        url: "https://www.linkedin.com/in/tomicles/ ",
       },
-      {
-        iconName: "fa-brands fa-twitter",
-        url: "https://twitter.com/",
-      },
-      {
-        iconName: "fa-brands fa-facebook-f",
-        url: "https://facebook.com/",
-      },
-      {
-        iconName: "fa-brands fa-instagram",
-        url: "https://instagram.com/",
-      },
-      {
-        iconName: "fa-brands fa-dribbble",
-        url: "https://dribbble.com/",
-      },
+
     ],
   },
 ];
@@ -125,10 +63,9 @@ const Team = () => {
       <div className="pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <h2>Skilled Team</h2>
+            <h2>Board of Directors </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              
             </p>
           </div>
 

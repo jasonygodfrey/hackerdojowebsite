@@ -24,17 +24,17 @@ const Index = () => {
 
       <About />
 
-      <OurWorks />
+      <LatestNewsSlider />
 
-      <WorkProcess />
+     
 
-      <Feedback />
+      
 
       <Team />
 
       <FunFacts />
 
-      <LatestNewsSlider />
+      
 
       <CtaArea />
 

@@ -57,7 +57,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/@HackerDojo" target="_blank">
+                    <a href="https://www.youtube.com/HackerDojo" target="_blank">
                       <i className="fa-brands fa-youtube"></i>
                     </a>
                   </li>
@@ -66,6 +66,7 @@ const Footer = () => {
                       <i className="fa-brands fa-twitch"></i>
                     </a>
                   </li>
+                  
                 </ul>
               </div>
             </div>
@@ -181,10 +182,10 @@ Mountain View, CA 94043.
           <div className="container">
             <p>
               Copyright &copy; {currentYear} Hacker Dojo. All Rights Reserved.
-              <p>
+            <br></br>
   Website by
-  <a href="https://jasongodfrey.dev" target="_blank" rel="noopener noreferrer"> jasongodfrey.dev</a>
-</p>
+  <a href="https://JasonGodfrey.dev" target="_blank" rel="noopener noreferrer"> JasonGodfrey.Dev</a>
+  
             </p>
           </div>
         </div>
