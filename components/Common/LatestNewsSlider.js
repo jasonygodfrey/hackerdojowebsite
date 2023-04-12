@@ -6,38 +6,38 @@ import { Autoplay, Pagination } from "swiper";
 const latestNewsSliderData = [
   {
     image: "/images/blog/blog1.jpg",
-    title: "The Most Popular New top Business Apps",
+    title: "Coming Soon",
     date: "Feb 15, 2023",
-    category: "Technology",
+    category: "Events",
     shortText:
-      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete",
+      "Preview Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
     readMoreLink: "/blog-details",
   },
   {
     image: "/images/blog/blog2.jpg",
-    title: "The Best Marketing top use Management Tools",
+    title: "Coming Soon",
     date: "Feb 16, 2023",
-    category: "Agency",
+    category: "Technology",
     shortText:
-      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete",
+      "Preview Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
     readMoreLink: "/blog-details",
   },
   {
     image: "/images/blog/blog3.jpg",
-    title: "3 WooCommerce Plugins to Boost Sales",
+    title: "Coming Soon",
     date: "Feb 17, 2023",
     category: "IT Agency",
     shortText:
-      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete",
+      "Preview Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
     readMoreLink: "/blog-details",
   },
   {
     image: "/images/blog/blog4.jpg",
-    title: "Top 21 Must-Read Blogs For Creative Agencies",
+    title: "Coming Soon",
     date: "Feb 18, 2023",
     category: "Development",
     shortText:
-      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete",
+      "Preview Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
     readMoreLink: "/blog-details",
   },
 ];
@@ -48,10 +48,9 @@ const LatestNewsSlider = () => {
       <div className="blog-area ptb-100">
         <div className="container">
           <div className="section-title">
-            <h2>Latest News</h2>
+            <h2>Latest news & Recent Events</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              
             </p>
           </div>
 

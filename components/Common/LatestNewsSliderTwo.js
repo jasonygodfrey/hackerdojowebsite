@@ -6,7 +6,7 @@ import { Autoplay, Pagination } from "swiper";
 const latestNewsData = [
   {
     image: "/images/blog/blog7.jpg",
-    title: "The Most Popular New top Business Apps",
+    title: "Coming Soon",
     date: "Feb 15, 2023",
     category: "Technology",
     shortText:
@@ -15,7 +15,7 @@ const latestNewsData = [
   },
   {
     image: "/images/blog/blog8.jpg",
-    title: "The Best Marketing top use Management Tools",
+    title: "Coming Soon",
     date: "Feb 16, 2023",
     category: "Agency",
     shortText:

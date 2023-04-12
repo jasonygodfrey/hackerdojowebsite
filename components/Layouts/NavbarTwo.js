@@ -42,7 +42,7 @@ const NavbarTwo = () => {
             <Link href="/" className="navbar-brand">
               <img src="/images/logo.png" className="black-logo" alt="logo" />
               <img
-                src="/images/logo-white.png"
+                src="/images/logo.png"
                 className="white-logo"
                 alt="logo"
               />

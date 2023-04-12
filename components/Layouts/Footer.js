@@ -97,8 +97,8 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/portfolio/">
-                      Portfolio
+                    <Link href="/blog/">
+                      Blog
                     </Link>
                   </li>
                   <li>
@@ -183,9 +183,7 @@ Mountain View, CA 94043.
             <p>
               Copyright &copy; {currentYear} Hacker Dojo. All Rights Reserved.
             <br></br>
-  Website by
-  <a href="https://JasonGodfrey.dev" target="_blank" rel="noopener noreferrer"> JasonGodfrey.Dev</a>
-  
+
             </p>
           </div>
         </div>
