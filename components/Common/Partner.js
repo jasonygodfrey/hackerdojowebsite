@@ -12,17 +12,22 @@ const partnersData = [
     aosDelay: "200",
   },
   {
-    image: "/images/partners/partner3.png",
+    image: "/images/partners/partner5.png",
     
     aosDelay: "300",
   },
   {
-    image: "/images/partners/partner4.png",
+    break: true,
+  },
+  
+
+  {
+    image: "/images/partners/partner3.png",
    
     aosDelay: "400",
   },
   {
-    image: "/images/partners/partner5.png",
+    image: "/images/partners/partner4.png",
    
     aosDelay: "500",
   },
@@ -42,21 +47,32 @@ const Partner = () => {
           </div>
 
           <div className="row align-items-center justify-content-center">
-            {partnersData &&
-              partnersData.map((value, i) => (
-                <div className="col-lg-2 col-6 col-sm-4" key={i}>
-                  <div
-                    className="single-partner"
-                    data-aos="fade-in"
-                    data-aos-duration="1200"
-                    data-aos-delay={value.aosDelay}
-                  >
-                    <a href={value.link} target="_blank">
-                      <img src={value.image} alt="Partner Image" />
-                    </a>
-                  </div>
-                </div>
-              ))}
+          {partnersData &&
+  partnersData.map((value, i) => {
+    if (value.break) {
+      return (
+        <div className="col-12" key={i}>
+          <br />
+        </div>
+      );
+    } else {
+      return (
+        <div className="col-lg-2 col-6 col-sm-4" key={i}>
+          <div
+            className="single-partner"
+            data-aos="fade-in"
+            data-aos-duration="1200"
+            data-aos-delay={value.aosDelay}
+          >
+            <a href={value.link} target="_blank">
+              <img src={value.image} alt="Partner Image" />
+            </a>
+          </div>
+        </div>
+      );
+    }
+  })}
+
           </div>
         </div>
       </div>
