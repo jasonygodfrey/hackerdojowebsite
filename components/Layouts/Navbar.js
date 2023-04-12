@@ -202,9 +202,9 @@ const Navbar = () => {
 
                     <li className="nav-item">
                       <Link
-                        href="/team/"
+                        href="https://www.meetup.com/hackerdojo/"
                         className={`nav-link ${
-                          currentPath == "/team/" && "active"
+                          currentPath == "https://www.meetup.com/hackerdojo/" && "active"
                         }`}
                       >
                         Meetup
@@ -213,9 +213,9 @@ const Navbar = () => {
 
                     <li className="nav-item">
                       <Link
-                        href="/pricing/"
+                        href="https://www.youtube.com/HackerDojo"
                         className={`nav-link ${
-                          currentPath == "/pricing/" && "active"
+                          currentPath == "https://www.youtube.com/HackerDojo" && "active"
                         }`}
                       >
                         Youtube
@@ -224,9 +224,9 @@ const Navbar = () => {
 
                     <li className="nav-item">
                       <Link
-                        href="/faq/"
+                        href="https://www.twitch.tv/hackerdojotv"
                         className={`nav-link ${
-                          currentPath == "/faq/" && "active"
+                          currentPath == "https://www.twitch.tv/hackerdojotv" && "active"
                         }`}
                       >
                         Twitch
