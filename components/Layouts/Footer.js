@@ -164,10 +164,13 @@ const Footer = () => {
                 <h3>Get in Touch</h3>
 
                 <ul className="get-in-touch">
-                  <li>
-                    <i className="fa-solid fa-location-dot"></i> 855 Maude Avenue
-Mountain View, California, 94043, United States
-                  </li>
+                <li>
+  <i className="fa-solid fa-location-dot"></i>
+  <a href="https://goo.gl/maps/Pm5sXR6CNjZxFYD49" target="_blank" rel="noopener noreferrer">
+    855 Maude Avenue Mountain View, California, 94043, United States
+  </a>
+</li>
+
                   <li>
                     <i className="fa-solid fa-headset"></i>
                     <a href="tel:+650-429-8605">(650) 429-8605</a> 

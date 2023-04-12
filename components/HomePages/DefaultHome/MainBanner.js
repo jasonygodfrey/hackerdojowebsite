@@ -2,6 +2,29 @@ import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
 import Link from 'next/link';
 
+const gradientMovingOutline = {
+  fontSize: '3rem',
+  WebkitTextFillColor: 'transparent',
+  WebkitTextStrokeWidth: '0px',
+  backgroundImage: 'linear-gradient(-45deg, #FFA500, #f79, #f06)',
+  backgroundSize: '200% 200%',
+  WebkitBackgroundClip: 'text',
+  backgroundClip: 'text',
+  animation: 'gradient-moving 3s infinite',
+  '@keyframes gradient-moving': {
+    '0%': {
+      backgroundPosition: '0% 50%',
+    },
+    '50%': {
+      backgroundPosition: '100% 50%',
+    },
+    '100%': {
+      backgroundPosition: '0% 50%',
+    },
+  },
+};
+
+
 const MainBanner = () => {
   const [toggler, setToggler] = useState(false);
   return (
@@ -28,16 +51,17 @@ const MainBanner = () => {
                       data-aos-duration="1200"
                       data-aos-delay="100"
                     >
-                      Where Community + Creativity Meet
+                    
                     </span>
 
                     <h1
-                      data-aos="fade-in"
-                      data-aos-duration="1200"
-                      data-aos-delay="200"
-                    >
-                      Hacker Dojo
-                    </h1>
+  style={gradientMovingOutline}
+  data-aos="fade-in"
+  data-aos-duration="1200"
+  data-aos-delay="200"
+>
+  Where Community + Creativity Meet
+</h1>
                     
                     <p
                       data-aos="fade-in"
@@ -91,7 +115,7 @@ const MainBanner = () => {
                     />
 
                     <img
-                      src="/images/banner-shapes/bn-shape4.png"
+                      src="/images/banner-shapes/bn-shape3.png"
                       className="animate__animated animate__fadeInDown animate__delay-0.5s"
                       alt="image"
                     />

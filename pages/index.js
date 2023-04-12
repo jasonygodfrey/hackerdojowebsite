@@ -20,10 +20,10 @@ const Index = () => {
 
       <MainBanner />
 
-    
+      <CtaArea />
 
       <About />
-      <CtaArea />
+      
 
       
 

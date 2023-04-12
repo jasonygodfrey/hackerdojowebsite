@@ -14,7 +14,7 @@ const CtaArea = () => {
                 data-aos-duration="1200"
                 data-aos-delay="200"
               >
-                <h3>Take a tour of the Dojo!</h3>
+                <h3>Tour the Dojo!</h3>
                 
               </div>
             </div>
