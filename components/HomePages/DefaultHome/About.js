@@ -47,39 +47,30 @@ const About = () => {
                 <div className="section-title">
                   <h2>About Us</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
+                  One of the unique features of Hacker Dojo is its open-door policy, which allows anyone to visit and use the space, regardless of their technical expertise or background. 
+
                   </p>
                 </div>
 
                 <div className="about-text">
                   <h4>Who We Are</h4>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis et
-                    quasi architecto beatae vitae dicta sunt explicabo.
+                  Hacker Dojo is a community center in Silicon Valley that is focused on providing a collaborative and innovative space for tech enthusiasts, hackers, and entrepreneurs. It was founded in 2009 by several members of the Silicon Valley tech community and is located in Santa Clara, California.
+
                   </p>
                 </div>
 
                 <div className="about-text">
                   <h4>Our History</h4>
                   <p>
-                    But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete account of the system, and expound the
-                    actual teachings of the great explorer of the truth.
+                  Hacker Dojo has had a significant impact on the Silicon Valley tech scene, serving as a hub for innovation and entrepreneurship and providing a supportive environment for tech enthusiasts to connect and collaborate.
                   </p>
                 </div>
 
                 <div className="about-text">
                   <h4>Our Mission</h4>
                   <p>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus
-                    qui blanditiis praesentium voluptatum deleniti atque
-                    corrupti quos dolores et quas molestias excepturi sint
-                    occaecati cupiditate non provident, similique sunt in culpa.
+                  Creating an inclusive and accessible community for tech enthusiasts to learn, play and build together.
                   </p>
                 </div>
               </div>

@@ -87,25 +87,26 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/about/">
+                    <Link href="https://wiki.hackerdojo.com/index.php?title=Main_Page">
                       About
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services/">
-                      Services
+                    <Link href="https://www.meetup.com/hackerdojo/">
+                      Events
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog/">
-                      Blog
+                    <Link href="https://www.facebook.com/hackerdojo/">
+                      Contact Us
                     </Link>
                   </li>
                   <li>
-                    <Link href="/team/">
-                      Team
+                    <Link href="https://hackerdojo.spaces.nexudus.com/?public&">
+                      Membership Pricing
                     </Link>
                   </li>
+
                 </ul>
               </div>
             </div>
@@ -120,29 +121,33 @@ const Footer = () => {
                 <h3>Quick Links</h3>
 
                 <ul className="list">
+                  
                   <li>
-                    <Link href="/contact/">
-                      Contact Us
+                    <Link href="#"> 
+                      Frequently Asked Questions
                     </Link>
                   </li>
                   <li>
-                    <Link href="/pricing/">
-                      Pricing
+                    <Link href="https://wiki.hackerdojo.com/index.php?title=Hacker_Dojo_Policies">
+                      Our Policies
                     </Link>
                   </li>
                   <li>
-                    <Link href="/faq/">
-                      Faq
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/privacy-policy/">
-                      Privacy Policy
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/terms-conditions/">
+                    <Link href="https://wiki.hackerdojo.com/index.php?title=Bylaws">
                       Terms & Conditions
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="https://drive.google.com/drive/u/0/folders/0AKfuxK7ZD6_OUk9PVA">
+                    501(c)3 Non-Profit
+                    </Link>
+                  </li>
+                  <li>
+                  EIN # 26-4812213
+                  </li>
+                  <li>
+                    <Link href="https://drive.google.com/drive/folders/1ltGVrYmOATjKwdnu27n86pLId6KgKglg?usp=sharing">
+                    Board Meeting Minutes
                     </Link>
                   </li>
                 </ul>
@@ -161,7 +166,7 @@ const Footer = () => {
                 <ul className="get-in-touch">
                   <li>
                     <i className="fa-solid fa-location-dot"></i> 855 Maude Avenue
-Mountain View, CA 94043.
+Mountain View, California, 94043, United States
                   </li>
                   <li>
                     <i className="fa-solid fa-headset"></i>
@@ -181,7 +186,14 @@ Mountain View, CA 94043.
         <div className="copyright-area">
           <div className="container">
             <p>
-              Copyright &copy; {currentYear} Hacker Dojo. All Rights Reserved.
+              Copyright &copy; {currentYear} Hacker Dojo. All Rights Reserved.        <a
+        href="https://JasonGodfrey.dev"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "grey" }}
+      >
+        Website Developer Contact
+      </a>
             <br></br>
 
             </p>

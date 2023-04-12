@@ -16,7 +16,7 @@ const AboutContent = () => {
             <div className="col-lg-5 col-md-12">
               <div className="about-image">
                 <img
-                  src="/images/about-img3.jpg"
+                  src="/images/about-img2.jpg"
                   alt="image"
                   className="rounded-10"
                 />

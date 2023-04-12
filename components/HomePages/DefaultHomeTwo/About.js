@@ -45,7 +45,9 @@ const About = () => {
                 data-aos-delay="400"
               >
                 <div className="section-title">
-                  <h2>About Us</h2>
+                  <h2>About Us
+              
+                  </h2>
                   <p>
                     Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
                     In sagittis eg esta ante, sed viverra nunc tinci dunt nec

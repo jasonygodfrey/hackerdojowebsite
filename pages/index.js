@@ -20,11 +20,12 @@ const Index = () => {
 
       <MainBanner />
 
-      <Services />
+    
 
       <About />
+      <CtaArea />
 
-      <LatestNewsSlider />
+      
 
      
 
@@ -36,7 +37,7 @@ const Index = () => {
 
       
 
-      <CtaArea />
+      
 
       <Partner />
 

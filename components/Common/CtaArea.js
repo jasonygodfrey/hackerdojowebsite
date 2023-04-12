@@ -14,8 +14,8 @@ const CtaArea = () => {
                 data-aos-duration="1200"
                 data-aos-delay="200"
               >
-                <h3>Have an event in mind?</h3>
-                <p>Contact Our Events Coordinator!</p>
+                <h3>Take a tour of the Dojo!</h3>
+                
               </div>
             </div>
 
@@ -26,8 +26,8 @@ const CtaArea = () => {
               data-aos-delay="300"
             >
               <div className="cta-btn-box">
-                <Link href="/contact" className="btn btn-primary">
-                  Contact Us
+                <Link href="https://calendly.com/hdfrontdesk/30min?month=2023-04" className="btn btn-primary">
+                  Book Now
                 </Link>
               </div>
             </div>

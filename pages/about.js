@@ -12,9 +12,9 @@ import Footer from "../components/Layouts/Footer";
 const Aabout = () => {
   return (
     <>
-      <NavbarTwo />
+      <NavbarTwo/>
 
-      <PageBanner pageTitle="About Us" BGImage="/images/page-banner1.jpg" />
+      <PageBanner pageTitle="About Us" BGImage="/images/ezgif-3-12b6b1d73a.jpg" />
 
       <AboutContent />
 

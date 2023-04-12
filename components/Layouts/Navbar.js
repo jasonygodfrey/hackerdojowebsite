@@ -77,12 +77,12 @@ const Navbar = () => {
                
                 <li className="nav-item">
                   <Link
-                    href="/about/"
+                    href="https://wiki.hackerdojo.com/index.php?title=Main_Page"
                     className={`nav-link ${
-                      currentPath == "/about/" && "active"
+                      currentPath == "https://wiki.hackerdojo.com/index.php?title=Main_Page" && "active"
                     }`}
                   >
-                    About Us 
+                    About 
                   </Link>
 
                   
@@ -98,58 +98,28 @@ const Navbar = () => {
 
                 <li className="nav-item">
                   <Link
-                    href="/blog/"
+                    href="https://www.meetup.com/hackerdojo/"
                     className={`nav-link ${
-                      currentPath == "/blog/" && "active"
+                      currentPath == "https://www.meetup.com/hackerdojo//" && "active"
                     }`}
                   >
-                    Blog <i className="fa-solid fa-angle-down"></i>
+                    Events <span className="arrow-down">&#x25BE;</span>
                   </Link>
-
                   <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link
-                        href="/blog/"
+                        href="https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit"
                         className={`nav-link ${
-                          currentPath == "/blog/" && "active"
+                          currentPath == "https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit" && "active"
                         }`}
                       >
-                        Blog Grid
+                        Event Request
                       </Link>
                     </li>
 
-                    <li className="nav-item">
-                      <Link
-                        href="/blog2/"
-                        className={`nav-link ${
-                          currentPath == "/blog2/" && "active"
-                        }`}
-                      >
-                        Blog Right Sidebar
-                      </Link>
-                    </li>
+                   
 
-                    <li className="nav-item">
-                      <Link
-                        href="/blog3/"
-                        className={`nav-link ${
-                          currentPath == "/blog3/" && "active"
-                        }`}
-                      >
-                        Blog Left Sidebar
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/blog-details/"
-                        className={`nav-link ${
-                          currentPath == "/blog-details/" && "active"
-                        }`}
-                      >
-                        Blog Details
-                      </Link>
-                    </li>
+                    
                   </ul>
                 </li>
 
@@ -167,22 +137,107 @@ const Navbar = () => {
 
                 <li className="nav-item">
                   <Link
-                    href="/contact/"
+                    href="https://www.facebook.com/hackerdojo/"
                     className={`nav-link ${
-                      currentPath == "/contact/" && "active"
+                      currentPath == "https://www.facebook.com/hackerdojo/" && "active"
                     }`}
                   >
-                    Contact Us
+                    Contact <span className="arrow-down">&#x25BE;</span>
                   </Link>
+                  <ul className="dropdown-menu">
+                    <li className="nav-item">
+                      <Link
+                        href="https://www.facebook.com/hackerdojo/"
+                        className={`nav-link ${
+                          currentPath == "https://www.facebook.com/hackerdojo/" && "active"
+                        }`}
+                      >
+                        Facebook
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link
+                        href="https://twitter.com/hackerdojo"
+                        className={`nav-link ${
+                          currentPath == "https://twitter.com/hackerdojo" && "active"
+                        }`}
+                      >
+                        Twitter
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link
+                        href="https://www.linkedin.com/company/hackerdojo/"
+                        className={`nav-link ${
+                          currentPath == "https://www.linkedin.com/company/hackerdojo/" && "active"
+                        }`}
+                      >
+                        Linkedin
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link
+                        href="https://www.instagram.com/hackerdojo/"
+                        className={`nav-link ${
+                          currentPath == "https://www.instagram.com/hackerdojo/" && "active"
+                        }`}
+                      >
+                        Instagram
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link
+                        href="https://discord.gg/tvce5JtT"
+                        className={`nav-link ${
+                          currentPath == "https://discord.gg/tvce5JtT" && "active"
+                        }`}
+                      >
+                        Discord
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link
+                        href="/team/"
+                        className={`nav-link ${
+                          currentPath == "/team/" && "active"
+                        }`}
+                      >
+                        Meetup
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link
+                        href="/pricing/"
+                        className={`nav-link ${
+                          currentPath == "/pricing/" && "active"
+                        }`}
+                      >
+                        Youtube
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link
+                        href="/faq/"
+                        className={`nav-link ${
+                          currentPath == "/faq/" && "active"
+                        }`}
+                      >
+                        Twitch
+                      </Link>
+                    </li>
+
+                    
+                  </ul>
                 </li>
                 <li className="nav-item">
-                  <Link
-                    href="#"
-                    className="nav-link"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    Developer <i className="fa-solid fa-angle-down"></i>
-                  </Link>
+                 
 
                   <ul className="dropdown-menu">
                     <li className="nav-item">
