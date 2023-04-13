@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
 import Link from 'next/link';
 
+
+
 const gradientMovingOutline = {
   fontSize: '3rem',
   WebkitTextFillColor: 'transparent',
@@ -23,7 +25,28 @@ const gradientMovingOutline = {
     },
   },
 };
+const videoStyle = {
+  position: 'absolute',
+  top: '-85%',
+  left: '-10%',
+  minWidth: '100%',
+  minHeight: '100%',
+  width: '120%',
+  height: '450%',
+  zIndex: -100,
+  objectFit: 'cover',
+  pointerEvents: 'none',
+};
+const paragraphStyle = {
+  color: 'white', // Add this line
+};
 
+const mainBannerContentStyle = {
+  position: 'relative',
+  overflow: 'hidden',
+  width: '100%',
+  height: '100%', // Adjust the height as needed
+};
 
 const MainBanner = () => {
   const [toggler, setToggler] = useState(false);
@@ -44,8 +67,18 @@ const MainBanner = () => {
           <div className="d-table-cell">
             <div className="container">
               <div className="row">
-                <div className="col-lg-6">
-                  <div className="main-banner-content">
+              <div className="col-lg-12">
+                  <div className="main-banner-content" style={{ position: 'relative' }}>
+                    <video
+                      style={videoStyle}
+                      playsInline
+                      autoPlay
+                      muted
+                      loop
+                    >
+                      <source src="/images/hackerdojocollage.webm" type="video/webm" />
+                    </video>
+         
                     <span
                       data-aos="fade-in"
                       data-aos-duration="1200"
@@ -62,8 +95,10 @@ const MainBanner = () => {
 >
   Where Community + Creativity Meet
 </h1>
+
                     
                     <p
+                    style={paragraphStyle}
                       data-aos="fade-in"
                       data-aos-duration="1200"
                       data-aos-delay="300"
@@ -90,94 +125,15 @@ const MainBanner = () => {
                     >
                       <i className="fa-solid fa-play me-1"></i> Who We Are
                     </button>
+                    
                   </div>
+                  
                 </div>
-
-                <div className="col-lg-6">
-                  <div className="banner-animation-image">
-                    {/* Shape Image */}
-                    <img
-                      src="/images/banner-shapes/bn-shape1.png"
-                      className="animate__animated animate__fadeInUp animate__delay-0.5s"
-                      alt="image"
-                    />
-
-                    <img
-                      src="/images/banner-shapes/bn-shape2.png"
-                      className="animate__animated animate__fadeInLeft animate__delay-0.5s"
-                      alt="image"
-                    />
-
-                    <img
-                      src="/images/banner-shapes/bn-shape3.png"
-                      className="animate__animated animate__fadeInDown animate__delay-0.5s"
-                      alt="image"
-                    />
-
-                    <img
-                      src="/images/banner-shapes/bn-shape3.png"
-                      className="animate__animated animate__fadeInDown animate__delay-0.5s"
-                      alt="image"
-                    />
-
-                    <img
-                      src="/images/banner-shapes/bn-shape5.png"
-                      className="animate__animated animate__fadeInUp animate__delay-0.5s"
-                      alt="image"
-                    />
-
-                    <img
-                      src="/images/banner-shapes/bn-shape6.png"
-                      className="animate__animated animate__rollIn animate__delay-0.5s"
-                      alt="image"
-                    />
-
-                    <img
-                      src="/images/banner-shapes/bn-shape7.png"
-                      className="animate__animated animate__zoomIn animate__delay-0.5s"
-                      alt="image"
-                    />
-
-                    <img
-                      src="/images/banner-shapes/bn-shape8.png"
-                      className="animate__animated animate__fadeInLeft animate__delay-0.5s"
-                      alt="image"
-                    />
-
-                    <img
-                      src="/images/banner-shapes/bn-shape9.png"
-                      className="animate__animated animate__fadeInUp animate__delay-0.5s"
-                      alt="image"
-                    />
-
-                    <img
-                      src="/images/banner-shapes/bn-shape10.png"
-                      className="animate__animated animate__fadeInDown animate__delay-0.5s"
-                      alt="image"
-                    />
-
-                    <img
-                      src="/images/banner-shapes/bn-shape11.png"
-                      className="animate__animated animate__fadeInUp animate__delay-0.5s"
-                      alt="image"
-                    />
-
-                    <img
-                      src="/images/banner-shapes/bn-shape12.png"
-                      className="animate__animated animate__zoomIn animate__delay-0.5s"
-                      alt="image"
-                    />
-
-                    {/* Main Image */}
-                    <img
-                      src="/images/banner-img1.png"
-                      className="main-pic animate__animated animate__fadeInUp animate__delay-0.5s"
-                      alt="image"
-                    />
-                  </div>
-                </div>
+                
+                
               </div>
             </div>
+            
           </div>
         </div>
       </div>
