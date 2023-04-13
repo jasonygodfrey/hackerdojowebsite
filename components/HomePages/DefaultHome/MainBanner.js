@@ -76,7 +76,7 @@ const MainBanner = () => {
                       muted
                       loop
                     >
-                      <source src="/images/hackerdojocollage.webm" type="video/webm" />
+                      <source src="https://jasonbucket123.s3.us-west-2.amazonaws.com/hackerdojocollage.webm" type="video/webm" />
                     </video>
          
                     <span
