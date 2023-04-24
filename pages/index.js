@@ -20,10 +20,7 @@ const Index = () => {
 
       <MainBanner />
 
-      <CtaArea />
 
-      <About />
-      
 
       
 
@@ -33,7 +30,7 @@ const Index = () => {
 
       <Team />
 
-      <FunFacts />
+
 
       
 

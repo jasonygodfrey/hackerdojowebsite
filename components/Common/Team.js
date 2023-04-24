@@ -2,56 +2,45 @@ import React from "react";
 
 const teamMemberData = [
   {
-    image: "/images/team/circle-team1.jpg",
+    image: "/images/team/circle-team1.jpg"
+    ,
     name: "Emily Johnson",
-    designation: "Board Chair (2021-present)",
+    designation: "Board Chair",
     aosDelay: "100",
+    
 
     socialLinks: [
-      {
-        iconName: "fa-brands fa-linkedin-in",
-        url: "https://www.linkedin.com/in/emilymjohnson/",
-      },
+
     ],
   },
   {
     image: "/images/team/circle-team2.jpg",
     name: "David Weekly ",
-    designation: "Cofounder of Hacker Dojo, Board Member, & Secretary (2009-present)",
+    designation: "Board Member & Secretary",
     aosDelay: "200",
 
     socialLinks: [
-      {
-        iconName: "fa-brands fa-linkedin-in",
-        url: "https://www.linkedin.com/in/dweekly/",
-      },
+
     ],
   },
   {
     image: "/images/team/circle-team3.jpg",
     name: "Olya Zarembo",
-    designation: "Board Member (2018-present)",
+    designation: "Board Member",
     aosDelay: "300",
 
     socialLinks: [
-      {
-        iconName: "fa-brands fa-linkedin-in",
-        url: "https://www.linkedin.com/in/olyaz/",
-      },
+
 
     ],
   },
   {
     image: "/images/team/circle-team4.jpg",
     name: "Tom Harrison",
-    designation: "Board Member (2020-present)",
+    designation: "Board Member",
     aosDelay: "400",
 
     socialLinks: [
-      {
-        iconName: "fa-brands fa-linkedin-in",
-        url: "https://www.linkedin.com/in/tomicles/ ",
-      },
 
     ],
   },
@@ -63,7 +52,8 @@ const Team = () => {
       <div className="pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <h2>Board of Directors </h2>
+            <h2 >BOARD MEMBERS </h2>
+            
             <p>
               
             </p>

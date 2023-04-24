@@ -78,7 +78,7 @@ const Footer = () => {
                 data-aos-duration="1200" 
                 data-aos-delay="200"
               >
-                <h3>Explore</h3>
+                <h3>Services</h3>
 
                 <ul className="list">
                   <li>
@@ -118,7 +118,7 @@ const Footer = () => {
                 data-aos-duration="1200" 
                 data-aos-delay="300"
               >
-                <h3>Quick Links</h3>
+                <h3>Membership</h3>
 
                 <ul className="list">
                   
@@ -161,7 +161,7 @@ const Footer = () => {
                 data-aos-duration="1200" 
                 data-aos-delay="400"
               >
-                <h3>Get in Touch</h3>
+                <h3>Resources</h3>
 
                 <ul className="get-in-touch">
                 <li>

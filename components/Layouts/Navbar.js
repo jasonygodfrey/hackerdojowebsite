@@ -66,7 +66,7 @@ const Navbar = () => {
                     href="/"
                     className={`nav-link ${currentPath == "/" && "active"}`}
                   >
-                    Home 
+                    HOME 
                   </Link>
 
                   
@@ -82,7 +82,7 @@ const Navbar = () => {
                       currentPath == "https://wiki.hackerdojo.com/index.php?title=Main_Page" && "active"
                     }`}
                   >
-                    About 
+                    ABOUT 
                   </Link>
 
                   
@@ -103,7 +103,7 @@ const Navbar = () => {
                       currentPath == "https://www.meetup.com/hackerdojo//" && "active"
                     }`}
                   >
-                    Events <span className="arrow-down">&#x25BE;</span>
+                    EVENTS <span className="arrow-down">&#x25BE;</span>
                   </Link>
                   <ul className="dropdown-menu">
                     <li className="nav-item">
@@ -113,7 +113,7 @@ const Navbar = () => {
                           currentPath == "https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit" && "active"
                         }`}
                       >
-                        Event Request
+                        EVENT REQUEST
                       </Link>
                     </li>
 
@@ -130,7 +130,7 @@ const Navbar = () => {
                       currentPath == "https://givebutter.com/givingtuesdayhackerdojo" && "active"
                     }`}
                   >
-                    Donate
+                    DONATE
                   </Link>
                 </li>
 
@@ -142,7 +142,7 @@ const Navbar = () => {
                       currentPath == "https://www.facebook.com/hackerdojo/" && "active"
                     }`}
                   >
-                    Contact <span className="arrow-down">&#x25BE;</span>
+                    CONTACT <span className="arrow-down">&#x25BE;</span>
                   </Link>
                   <ul className="dropdown-menu">
                     <li className="nav-item">
@@ -421,7 +421,7 @@ const Navbar = () => {
 
               <div className="others-options">
                 <Link href="https://hackerdojo.spaces.nexudus.com/login" className="btn btn-primary">
-                  Sign In
+                  MEMBER PORTAL
                 </Link>
               </div>
             </div>

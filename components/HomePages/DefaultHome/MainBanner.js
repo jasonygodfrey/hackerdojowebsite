@@ -69,16 +69,7 @@ const MainBanner = () => {
               <div className="row">
               <div className="col-lg-12">
                   <div className="main-banner-content" style={{ position: 'relative' }}>
-                    <video
-                      style={videoStyle}
-                      playsInline
-                      autoPlay
-                      muted
-                      loop
-                    >
-                      <source src="https://jasonbucket123.s3.us-west-2.amazonaws.com/hackerdojocollage.webm" type="video/webm" />
-                    </video>
-         
+
                     <span
                       data-aos="fade-in"
                       data-aos-duration="1200"
@@ -88,12 +79,13 @@ const MainBanner = () => {
                     </span>
 
                     <h1
-  style={gradientMovingOutline}
+  
   data-aos="fade-in"
   data-aos-duration="1200"
   data-aos-delay="200"
 >
-  Where Community + Creativity Meet
+THE BEST PLACE TO CONNECT WITH SILICON VALLEY
+
 </h1>
 
                     
@@ -103,7 +95,7 @@ const MainBanner = () => {
                       data-aos-duration="1200"
                       data-aos-delay="300"
                     >
-                      Our Mission: Empowering an inclusive and accessible community where tech enthusiasts unite for learning, collaboration, and creativity.
+                      Hacker Dojo is a creative hacker space where you can meet and collaborate with interesting people from all across the globe working on the future of technology.
                     </p>
                     
                     <Link 
@@ -113,7 +105,7 @@ const MainBanner = () => {
                       data-aos-duration="1200"
                       data-aos-delay="400"
                     >
-                      Become a Member
+                      BECOME A MEMBER
                     </Link>
 
                     <button
@@ -123,7 +115,7 @@ const MainBanner = () => {
                       data-aos-duration="1200"
                       data-aos-delay="500"
                     >
-                      <i className="fa-solid fa-play me-1"></i> Who We Are
+                       LEARN MORE
                     </button>
                     
                   </div>

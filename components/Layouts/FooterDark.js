@@ -68,7 +68,7 @@ const FooterDark = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://wiki.hackerdojo.com/index.php?title=Main_Page">
+                  <Link href="https://wiki.hackerdojo.com/index.php?title=Main_Page">
                       About
                     </Link>
                   </li>

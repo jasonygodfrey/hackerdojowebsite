@@ -42,26 +42,31 @@ This files table contents are outlined below >>>>>
 ** - Go Top CSS
 */
 /* Default CSS */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   font-size: 15px;
   color: #646464;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Saira", sans-serif;
-  color: #18181b;
+  font-family: 'JetBrains Mono', monospace;
+  color: #ffffff;
   font-weight: bold;
 }
 
 h1, h2, h3 {
   font-weight: bold;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 h4, h5, h6 {
   font-weight: 600;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 p {
@@ -69,6 +74,7 @@ p {
   font-size: 15px;
   color: #646464;
   margin-bottom: 15px;
+  font-family: 'JetBrains Mono', monospace;
 }
 p:last-child {
   margin-bottom: 0;
@@ -136,11 +142,11 @@ button {
 }
 
 .bg-f9f6f6 {
-  background-color: #f9f6f6;
+  background-color: #000000;
 }
 
 .bg-f9f9f9 {
-  background-color: #f9f9f9;
+  background-color: #000000;
 }
 
 .mb-30 {
@@ -195,8 +201,11 @@ a:hover, a:focus {
 .btn-primary {
   color: #ffffff;
   background-color: #ffffff;
-  border: 1px solid #ff2c9c;
+  border: 1px solid #E13838;
+  
 }
+
+
 .btn-primary::before {
   border-radius: 5px;
   content: "";
@@ -207,15 +216,15 @@ a:hover, a:focus {
   margin: 0 auto;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: #E13838;
   z-index: -1;
   transition: all 0.5s ease;
 }
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  color: #ff2c9c;
+  color: #E13838;;
   box-shadow: unset;
   background-color: transparent;
-  border-color: #ff2c9c;
+  border-color: #E13838;;
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #ffffff;
@@ -223,19 +232,19 @@ a:hover, a:focus {
   border: 1px solid #ff2c9c;
 }
 .btn-primary:hover, .btn-primary:focus {
-  color: #ff2c9c;
+  color: #FFFFFF;;
   box-shadow: unset;
   background-color: transparent;
-  border-color: #ff2c9c;
+  border-color: #E13838;;
 }
 .btn-primary:hover::before, .btn-primary:focus::before {
   width: 0;
 }
 
 .btn-secondary {
-  color: #ff2c9c;
-  background-color: transparent;
-  border: 1px solid #ff2c9c;
+  color: #000000;
+  background-color: #ffffff;
+  
 }
 .btn-secondary::before {
   border-radius: 5px;
@@ -247,7 +256,7 @@ a:hover, a:focus {
   margin: 0 auto;
   width: 0;
   height: 100%;
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: #E13838;
   z-index: -1;
   transition: all 0.5s ease;
 }
@@ -263,7 +272,7 @@ a:hover, a:focus {
   border: 1px solid #ff2c9c;
 }
 .btn-secondary:hover, .btn-secondary:focus {
-  color: #ffffff;
+  color: #000000;
   box-shadow: unset;
   background-color: #ffffff;
   border-color: transparent;
@@ -363,6 +372,8 @@ Navbar CSS
   width: 100%;
   z-index: 999;
   height: auto;
+  background-color: black;
+  font-family: 'JetBrains Mono', monospace;
 }
 .navbar-area nav ul {
   padding: 0;
@@ -385,7 +396,7 @@ Navbar CSS
   /* Mega dropdown menu */
 }
 .navbar-area nav .navbar-nav .nav-item a {
-  color: #18181b;
+  color: #ffffff;
   text-transform: capitalize;
   position: relative;
   font-weight: 500;
@@ -394,6 +405,7 @@ Navbar CSS
   padding-right: 0;
   padding-top: 0;
   padding-bottom: 0;
+  
 }
 .navbar-area nav .navbar-nav .nav-item a::before {
   bottom: -5px;
@@ -406,7 +418,7 @@ Navbar CSS
   position: absolute;
 }
 .navbar-area nav .navbar-nav .nav-item a:hover, .navbar-area nav .navbar-nav .nav-item a:focus, .navbar-area nav .navbar-nav .nav-item a.active {
-  color: #18181b;
+  color: #E13838;
 }
 .navbar-area nav .navbar-nav .nav-item a:hover::before, .navbar-area nav .navbar-nav .nav-item a:focus::before, .navbar-area nav .navbar-nav .nav-item a.active::before {
   width: 60%;
@@ -420,7 +432,7 @@ Navbar CSS
 }
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu {
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
-  background: #ffffff;
+  background: #000000;
   position: absolute;
   top: 80px;
   left: 0;
@@ -444,7 +456,7 @@ Navbar CSS
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a {
   display: inline-block;
   font-size: 14px;
-  color: #18181b;
+  color: #ffffff;
   font-weight: 500;
 }
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a::before {
@@ -568,7 +580,7 @@ Navbar CSS
   padding-top: 2px;
   z-index: 999;
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
-  background-color: #ffffff !important;
+  background-color: #000000 !important;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 .navbar-area.navbar-style-2 nav .navbar-brand {
@@ -626,7 +638,7 @@ Navbar CSS
 
 .navbar-toggler {
   border: none;
-  background: #eee !important;
+  background: #000000 !important;
   padding: 10px;
   border-radius: 0;
 }
@@ -636,7 +648,7 @@ Navbar CSS
 .navbar-toggler .icon-bar {
   width: 28px;
   transition: all 0.3s;
-  background: #ff2c9c;
+  background: #ffffff;
   height: 2px;
   display: block;
 }
@@ -679,6 +691,7 @@ Main Banner CSS
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  background-color: black;
 }
 .main-banner.gradient-banner {
   height: 800px;
@@ -1195,10 +1208,10 @@ Main Banner CSS
   visibility: visible;
 }
 .slider-area ul li .tp-caption.NotGeneric-Title, .slider-area ul li .NotGeneric-Title {
-  font-family: "Saira", sans-serif !important;
+  font-family: 'JetBrains Mono', monospace !important;
 }
 .slider-area ul li .tp-caption.NotGeneric-SubTitle, .slider-area ul li .NotGeneric-SubTitle {
-  font-family: "Open Sans", sans-serif !important;
+  font-family: 'JetBrains Mono', monospace !important;
   font-size: 15px !important;
   font-weight: 500 !important;
   letter-spacing: 0 !important;
@@ -1464,17 +1477,27 @@ About CSS
   text-align: left;
   margin-bottom: 18px;
   max-width: 100%;
+  background-color: black;
 }
+.about-area {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: black;
+}
+
 .about-content .section-title p {
   margin: 0;
+  background-color: black;
 }
 
 .about-inner-area {
   margin-top: 60px;
+  background-color: black;
 }
 .about-inner-area .about-text h3 {
   margin-bottom: 12px;
   font-size: 22px;
+  background-color: black;
 }
 
 .about-image {
@@ -1482,24 +1505,30 @@ About CSS
 }
 .about-image img {
   width: 100%;
+  
 }
 
 .about-content-two {
   padding-left: 30px;
+  background-color: black;
 }
 .about-content-two .about-text {
   margin-bottom: 30px;
+  background-color: black;
 }
 .about-content-two .about-text:last-child {
   margin-bottom: 0;
+  background-color: black;
 }
 .about-content-two .about-text h4 {
   font-size: 22px;
+  background-color: black;
 }
 .about-content-two .about-text ul {
   list-style-type: none;
   padding: 0;
   margin: 10px 0 0;
+  background-color: black;
 }
 .about-content-two .about-text ul li {
   margin-bottom: 10px;
@@ -1507,6 +1536,7 @@ About CSS
   padding-left: 25px;
   line-height: 1.8;
   font-weight: 600;
+  background-color: black;
 }
 .about-content-two .about-text ul li:last-child {
   margin-bottom: 0;
@@ -1591,6 +1621,7 @@ About CSS
     opacity: 0;
   }
 }
+
 /*================================================
 Case Studies CSS
 =================================================*/
@@ -1874,7 +1905,7 @@ Quotes CSS
   position: relative;
   font-size: 32px;
   font-weight: 700;
-  font-family: "Saira", sans-serif;
+  font-family: 'JetBrains Mono', monospace;
 }
 .quotes-content p::before {
   content: "";
@@ -3849,7 +3880,7 @@ blockquote {
   margin: 20px 0;
 }
 blockquote::before {
-  font-family: "Font Awesome 5 Free";
+  font-family: 'JetBrains Mono', monospace;;
   content: "\f10d";
   position: absolute;
   left: 30px;
@@ -3864,7 +3895,7 @@ blockquote p {
 blockquote cite {
   position: relative;
   padding-left: 17px;
-  font-family: "Saira", sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   font-weight: 600;
 }
 blockquote cite::before {
@@ -4003,7 +4034,7 @@ blockquote cite::before {
 }
 .comments-area .comment-author .fn {
   font-weight: 600;
-  font-family: "Saira", sans-serif;
+  font-family: 'JetBrains Mono', monospace;
 }
 .comments-area .comment-author .says {
   display: none;
@@ -4385,7 +4416,7 @@ textarea.form-control {
 }
 .contact-sidebar .contact-item span {
   font-size: 18px;
-  font-family: "Saira", sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   font-weight: 600;
   display: block;
   margin-bottom: 10px;
@@ -4727,7 +4758,7 @@ Case Studies Details CSS
 .case-studies-information ul li span {
   font-size: 16px;
   font-weight: 700;
-  font-family: "Saira", sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   color: #18181b;
   display: inline-block;
   margin-right: 4px;
@@ -4813,7 +4844,7 @@ Portfolio Details CSS
 .portfolio-information ul li span {
   font-size: 16px;
   font-weight: 700;
-  font-family: "Saira", sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   color: #18181b;
   display: inline-block;
   margin-right: 4px;
@@ -4936,7 +4967,7 @@ FAQ CSS
   color: #18181b;
   font-size: 18px;
   font-weight: 700;
-  font-family: "Saira", sans-serif;
+  font-family: 'JetBrains Mono', monospace;
 }
 .faq-accordion .accordion .accordion__item .accordion__button:hover, .faq-accordion .accordion .accordion__item .accordion__button.active, .faq-accordion .accordion .accordion__item .accordion__button:focus {
   background: #ff2c9c;
@@ -4973,7 +5004,7 @@ FAQ CSS
 .faq-contact h3 {
   margin-bottom: 35px;
   font-size: 24px;
-  font-family: "Saira", sans-serif;
+  font-family: 'JetBrains Mono', monospace;
 }
 .faq-contact form .btn {
   margin-top: 10px;
@@ -4983,7 +5014,7 @@ FAQ CSS
 Footer CSS
 =================================================*/
 .footer-area {
-  background-color: #f6f9fc;
+  background-color: black;
   padding-top: 100px;
   position: relative;
   z-index: 1;
@@ -5387,4 +5418,24 @@ span.new {
   -webkit-background-clip: text;
   background-clip: text;
   animation: gradient-moving 3s infinite;
+}
+
+.pt-100.pb-70 {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: black;
+}
+.partner-area.pt-100.pb-60 {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  background-color: black;
+}
+.navbar-area.is-sticky {
+  background-color: black;
+}
+.navbar.navbar-expand-md.navbar-light {
+  background-color: black;
+}
+h2 {
+  color: #f6897A;
 }
