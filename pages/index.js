@@ -13,6 +13,7 @@ import CtaArea from "../components/Common/CtaArea";
 import Partner from "../components/Common/Partner";
 import Footer from "../components/Layouts/Footer";
 import OurStory from "../components/OurStory";
+import MemberBenefits from "../components/MemberBenefits";
 
 const Index = () => {
   return (
@@ -22,6 +23,7 @@ const Index = () => {
       <MainBanner />
 
 
+    <MemberBenefits/>
 
       
 
