@@ -5456,6 +5456,9 @@ h2 {
   text-align: center;
   background-color: black;
 }
+.our-story-section h2 {
+  font-size: 2.5rem; /* Adjust the value as desired */
+}
 
 .video-container {
   display: flex;
