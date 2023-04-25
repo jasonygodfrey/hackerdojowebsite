@@ -61,38 +61,11 @@ const Navbar = () => {
 
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav">
-                <li className="nav-item">
-                  <Link
-                    href="/"
-                    className={`nav-link ${currentPath == "/" && "active"}`}
-                  >
-                    HOME 
-                  </Link>
 
-                  
-                </li>
 
 
 
                
-                <li className="nav-item">
-                  <Link
-                    href="https://wiki.hackerdojo.com/index.php?title=Main_Page"
-                    className={`nav-link ${
-                      currentPath == "https://wiki.hackerdojo.com/index.php?title=Main_Page" && "active"
-                    }`}
-                  >
-                    ABOUT 
-                  </Link>
-
-                  
-
-
-
-
-
-                  
-                </li>
 
                
 
@@ -122,6 +95,26 @@ const Navbar = () => {
                     
                   </ul>
                 </li>
+
+                <li className="nav-item">
+                  <Link
+                    href="https://wiki.hackerdojo.com/index.php?title=Main_Page"
+                    className={`nav-link ${
+                      currentPath == "https://wiki.hackerdojo.com/index.php?title=Main_Page" && "active"
+                    }`}
+                  >
+                    ABOUT 
+                  </Link>
+
+                  
+
+
+
+
+
+                  
+                </li>
+
 
                 <li className="nav-item">
                   <Link

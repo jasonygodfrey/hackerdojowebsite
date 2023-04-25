@@ -63,7 +63,14 @@ const MainBanner = () => {
         toggler={toggler}
         sources={["https://www.youtube.com/watch?v=mcg2By317ZI&autoplay=1"]}
       />
-
+    <div
+      dangerouslySetInnerHTML={{
+        __html: `<!-- Developer Contact Information:
+Web Developer Contact Info: Jason  Website: jasongodfrey.dev
+I'm a web and game developer feel free to contact.
+-->`,
+      }}
+    />
       <div
         className="main-banner"
         style={{
