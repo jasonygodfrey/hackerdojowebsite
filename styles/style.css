@@ -5455,9 +5455,10 @@ h2 {
   align-items: center;
   text-align: center;
   background-color: black;
+  
 }
 .our-story-section h2 {
-  font-size: 2.5rem; /* Adjust the value as desired */
+  font-size: 50px; /* Adjust the value as desired */
 }
 
 .video-container {
@@ -5465,4 +5466,31 @@ h2 {
   justify-content: center;
   width: 100%;
   
+}
+
+.our-story-section {
+  padding-top: 30px;
+}
+
+.find-us-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 10px; /* Adjust this value as needed */
+}
+
+
+.address-info {
+  flex: 1;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.map-container {
+  flex: 1;
 }

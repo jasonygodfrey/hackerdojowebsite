@@ -15,6 +15,7 @@ import Footer from "../components/Layouts/Footer";
 import OurStory from "../components/OurStory";
 import MemberBenefits from "../components/MemberBenefits";
 import Faces from "../components/Faces";
+import FindUs from "../components/FindUs";
 
 const Index = () => {
   return (
@@ -38,6 +39,8 @@ const Index = () => {
 
 
       <OurStory/>
+
+      <FindUs/>
 
       
 
