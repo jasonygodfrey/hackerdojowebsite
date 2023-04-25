@@ -12,6 +12,7 @@ import LatestNewsSlider from "../components/Common/LatestNewsSlider";
 import CtaArea from "../components/Common/CtaArea";
 import Partner from "../components/Common/Partner";
 import Footer from "../components/Layouts/Footer";
+import OurStory from "../components/OurStory";
 
 const Index = () => {
   return (
@@ -32,7 +33,7 @@ const Index = () => {
 
 
 
-      
+      <OurStory/>
 
       
 
