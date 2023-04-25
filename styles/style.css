@@ -5439,3 +5439,11 @@ span.new {
 h2 {
   color: #f6897A;
 }
+
+
+.nav-item {
+  font-family: 'JetBrains Mono', monospace;
+}
+.list {
+  font-family: 'JetBrains Mono', monospace;
+}
