@@ -5497,3 +5497,11 @@ h2 {
 .map-container {
   flex: 1;
 }
+.min-size-img {
+  min-width: 300px;
+  min-height: 300px;
+}
+.our-story-section img {
+  min-width: 500px; /* Adjust the value as desired */
+  min-height: 300px; /* Adjust the value as desired */
+}

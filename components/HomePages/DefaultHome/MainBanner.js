@@ -132,12 +132,13 @@ I'm a web and game developer feel free to contact.
                       </div>
 
                       <div style={imageContainerStyle}>
-                        <img
-                          src="/images/faces.png"
-                          alt="Faces"
-                          style={{ maxWidth: '100%' }} // Adjust the width as needed
-                        />
-                      </div>
+  <img
+    src="/images/faces.png"
+    alt="Faces"
+    style={{ maxWidth: '100%', minWidth: '150px' }}
+  />
+</div>
+
                     </div>
                   </div>
                 </div>

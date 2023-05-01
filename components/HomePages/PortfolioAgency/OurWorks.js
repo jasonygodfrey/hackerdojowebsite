@@ -94,10 +94,8 @@ const OurWorks = () => {
       <section className="case-studies-area lg-portfolio ptb-100">
         <div className="container-fluid">
           <div className="section-title">
-            <h2>Our Projects</h2>
+            <h2>Startup Spotlight</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
 
@@ -132,23 +130,7 @@ const OurWorks = () => {
           </div>
  
           {/* Pagination */}
-          <div className="pagination-area">
-            <a className="prev page-numbers">
-              <i className="fa-solid fa-angles-left"></i>
-            </a>
-
-            <a className="page-numbers">1</a>
-
-            <span className="page-numbers current">2</span>
-
-            <a className="page-numbers">3</a>
-
-            <a className="page-numbers">4</a>
-
-            <a className="next page-numbers">
-              <i className="fa-solid fa-angles-right"></i>
-            </a>
-          </div>
+          
         </div>
       </section>
     </>

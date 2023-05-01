@@ -62,6 +62,16 @@ const Navbar = () => {
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav">
 
+              <li className="nav-item">
+                  <Link
+                    href="/startups"
+                    className={`nav-link ${
+                      currentPath == "https://givebutter.com/givingtuesdayhackerdojo" && "active"
+                    }`}
+                  >
+                    STARTUPS
+                  </Link>
+                </li>
 
 
 
