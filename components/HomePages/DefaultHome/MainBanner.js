@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
-import Link from 'next/link';
+import Link from "next/link";
 
 
 
@@ -90,6 +90,22 @@ I'm a web and game developer feel free to contact.
                           data-aos-duration="1200"
                           data-aos-delay="100"
                         ></span>
+                         <button
+                          style={{
+                            backgroundColor: "grey",
+                            color: "white",
+                            border: "none",
+                            borderRadius: "5px",
+                            padding: "10px 15px",
+                            marginBottom: "20px",
+                            cursor: "pointer",
+                          }}
+                          data-aos="fade-in"
+                          data-aos-duration="1200"
+                          data-aos-delay="100"
+                        >
+                          EXPERIENCE THE CULTURE OF INNOVATION
+                        </button>
 
                         <h1
                           data-aos="fade-in"
@@ -135,7 +151,7 @@ I'm a web and game developer feel free to contact.
   <img
     src="/images/faces.png"
     alt="Faces"
-    style={{ maxWidth: '100%', minWidth: '150px' }}
+    style={{ maxWidth: '150%', minWidth: '150px' }}
   />
 </div>
 
