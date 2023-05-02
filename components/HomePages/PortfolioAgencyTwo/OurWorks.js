@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "next/link";
 
+
+
+
 const ourWorksData = [
   {
     image: "/images/works/work1.jpg",
@@ -91,11 +94,11 @@ const ourWorksData = [
 const OurWorks = () => {
   return (
     <>
-      <section className="case-studies-area lg-portfolio ptb-100">
+      <section className="case-studies-area lg-portfolio ptb-100" style={{ backgroundColor: "black" }}>
         <div className="container">
           <div className="section-title">
-            <h2>Our Projects</h2>
-            <p>
+            <h2 style={{ marginTop: "70px", color: "white" }}>STARTUP SPOTLIGHT</h2>
+            <p style={{ color: "white" }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
@@ -139,11 +142,8 @@ const OurWorks = () => {
 
             <a className="page-numbers">1</a>
 
-            <span className="page-numbers current">2</span>
 
-            <a className="page-numbers">3</a>
 
-            <a className="page-numbers">4</a>
 
             <a className="next page-numbers">
               <i className="fa-solid fa-angles-right"></i>

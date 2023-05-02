@@ -195,7 +195,7 @@ const Footer = () => {
         rel="noopener noreferrer"
         style={{ color: "#1c1c1c" }}
       >
-        Website Developer Contact
+        Developer Contact
       </a>
             <br></br>
 

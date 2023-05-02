@@ -89,6 +89,16 @@ const Navbar = () => {
                     EVENTS <span className="arrow-down">&#x25BE;</span>
                   </Link>
                   <ul className="dropdown-menu">
+                  <li className="nav-item">
+                      <Link
+                        href="https://www.meetup.com/hackerdojo/"
+                        className={`nav-link ${
+                          currentPath == "https://www.meetup.com/hackerdojo/" && "active"
+                        }`}
+                      >
+                        EVENTS
+                      </Link>
+                    </li>
                     <li className="nav-item">
                       <Link
                         href="https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit"

@@ -5505,3 +5505,7 @@ h2 {
   min-width: 500px; /* Adjust the value as desired */
   min-height: 300px; /* Adjust the value as desired */
 }
+
+.startup-spotlight {
+  margin-top: 5930px; /* You can adjust this value to add more or less space! */
+}
