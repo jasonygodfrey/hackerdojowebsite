@@ -5580,4 +5580,13 @@ h2 {
 .image-container img {
   width: 100%;
   height: auto;
+  max-width: 800px; /* Change this value to the desired maximum width */
+  margin: 0 auto;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .image-container img {
+    width: 100%;
+  }
 }
