@@ -5469,7 +5469,7 @@ h2 {
 }
 
 .where-to-find-us {
-  padding-top: 140px;
+  padding-top: 100px;
 }
 
 .find-us-container {
@@ -5485,12 +5485,11 @@ h2 {
   
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+
   padding-bottom: 20px;
-  padding-right: 70px;
+  
   color: grey;
+  margin-top: 0px; /* Adjust the value as desired */
 }
 
 
@@ -5563,14 +5562,18 @@ h2 {
   }
 
   .address-info {
-    margin-right: 20px;
+    margin-right:0px;
   }
 
   .map-wrapper {
-    padding-top: 50%; /* Larger map on desktop */
+    padding-top: 200%; /* Larger map on desktop */
+    padding-right: 300%; /* Larger map on desktop */
+  }
+
+  .map-container {
+    width: 50%; /* Wider map on desktop */
   }
 }
-
 
 .image-container {
   width: 100%;
@@ -5584,9 +5587,17 @@ h2 {
   margin: 0 auto;
 }
 
-/* Media query for smaller screens */
-@media (max-width: 767px) {
-  .image-container img {
-    width: 100%;
-  }
+
+.address-info {
+  order: 1;
+  margin-top: 50px; /* Add some margin to push it up on desktop */
+  margin-bottom: 50px; /* Add some margin to push it down on mobile */
+  width: 100%; /* Make sure it takes up full width */
+  text-align: center; /* Center the text */
+}
+
+.address-info {
+  margin: 0 auto;
+  max-width: 800px; /* Change this value to the desired maximum width */
+  text-align: center;
 }
