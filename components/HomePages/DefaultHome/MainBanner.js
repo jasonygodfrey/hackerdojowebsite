@@ -73,10 +73,14 @@ I'm a web and game developer feel free to contact.
     />
       <div
         className="main-banner"
-        style={{
-          backgroundImage: `url()`,
-        }}
       >
+                <video 
+          style={videoStyle} 
+          src="https://jasonbucket123.s3.us-west-2.amazonaws.com/20221104_205913.mp4" 
+          autoPlay 
+          loop 
+          muted
+        />
         <div className="d-table">
           <div className="d-table-cell">
             <div className="container">
@@ -147,13 +151,7 @@ I'm a web and game developer feel free to contact.
                         </button>
                       </div>
 
-                      <div style={imageContainerStyle}>
-  <img
-    src="/images/faces.png"
-    alt="Faces"
-    style={{ maxWidth: '150%', minWidth: '150px' }}
-  />
-</div>
+                     
 
                     </div>
                   </div>
