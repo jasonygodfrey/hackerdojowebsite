@@ -22,7 +22,7 @@ const Index = () => {
     <>
       <Navbar />
 
-      <MainBanner />
+     
 
 
 
