@@ -7,7 +7,7 @@ const FindUs = () => {
         <h2>WHERE TO FIND US</h2>
       </div>
       <div className="find-us-container">
-        <div className="address-info">
+        <div className="address-info address-spacing">
           <h3>Hacker Dojo HQ</h3> <br />
           855 Maude Avenue <br />
           Mountain View, CA 94043
