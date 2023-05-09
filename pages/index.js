@@ -22,7 +22,7 @@ const Index = () => {
     <>
       <Navbar />
 
-     
+      <MainBanner />
 
 
 
@@ -40,7 +40,7 @@ const Index = () => {
 
       <OurStory/>
 
-      <FindUs/>
+      
 
       
 
