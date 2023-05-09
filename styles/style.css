@@ -5570,3 +5570,14 @@ h2 {
     padding-top: 50%; /* Larger map on desktop */
   }
 }
+
+
+.image-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
