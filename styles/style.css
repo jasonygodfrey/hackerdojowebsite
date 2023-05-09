@@ -5509,3 +5509,64 @@ h2 {
 .startup-spotlight {
   margin-top: 5930px; /* You can adjust this value to add more or less space! */
 }
+
+.map-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 200%;
+  padding-top: 175%; /* 4:3 Aspect Ratio */
+}
+
+.map-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.find-us-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.map-container {
+  order: 2;
+  margin-bottom: 250px; /* Add more space below the map */
+}
+
+.address-info {
+  order: 1;
+}
+
+.map-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 75%; /* 4:3 Aspect Ratio */
+}
+
+.map-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .find-us-container {
+    flex-direction: row;
+  }
+
+  .address-info {
+    margin-right: 20px;
+  }
+
+  .map-wrapper {
+    padding-top: 50%; /* Larger map on desktop */
+  }
+}
