@@ -68,6 +68,7 @@ const Navbar = () => {
                     className={`nav-link ${
                       currentPath == "https://givebutter.com/givingtuesdayhackerdojo" && "active"
                     }`}
+                    style={{ pointerEvents: "none", cursor: "not-allowed" }}
                   >
                     STARTUPS
                   </Link>
