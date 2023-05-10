@@ -34,17 +34,25 @@ const Navbar = () => {
     ? "navbar-toggler navbar-toggler-right collapsed"
     : "navbar-toggler navbar-toggler-right";
 
-  return (
-    <>
-      <div id="navbar" className="navbar-area">
-        <nav className="navbar navbar-expand-md navbar-light">
-          <div className="container">
-            <Link href="/" className="navbar-brand">
-              <img src="/images/logo.png" alt="logo" />
-            </Link>
+    return (
+      <>
+        <div id="navbar" className="navbar-area">
+          <nav className="navbar navbar-expand-md navbar-light">
+            <div className="container">
+              <Link href="/" className="navbar-brand">
+                <img src="/images/logo.png" alt="logo" />
+              </Link>
+  
+              {/* Here's your Member Portal button, moved outside the collapsible div */}
+<div className={`navbar-member-portal ${menu ? 'd-none' : ''}`}>
+  <Link href="https://hackerdojo.spaces.nexudus.com/login" className="btn btn-primary">
+    MEMBER PORTAL
+  </Link>
+</div>
 
-            {/* Toggle navigation */}
-            <button
+  
+              {/* Toggle navigation */}
+              <button
               onClick={toggleNavbar}
               className={classTwo}
               type="button"
