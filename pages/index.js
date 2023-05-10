@@ -28,7 +28,7 @@ const Index = () => {
 
     
 
-      <MemberBenefits/>
+   
 
      
 
@@ -41,6 +41,8 @@ const Index = () => {
       <OurStory/>
 
       <FindUs/>
+
+      <MemberBenefits/>
 
       <Team />
 
