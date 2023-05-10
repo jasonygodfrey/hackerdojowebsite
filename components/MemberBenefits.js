@@ -2,18 +2,24 @@ import React from 'react';
 
 const MemberBenefits = () => {
   return (
-    <div className="our-story-section">
-      <div className="image-container">
-        <img
-          src="/images/memberbenefits.png" // Change this to the actual path of your image file
-          alt="Member Benefits"
-          style={{ width: '100%', height: 'auto' }} // Add this line
-        />
-      </div>
+    <div 
+      className="image-container" 
+      style={{ 
+        width: '100%', 
+        display: 'flex', 
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        backgroundColor: 'black' 
+      }}
+    >
+      <img
+        src="/images/memberbenefits.png"
+        alt="Member Benefits"
+        style={{ width: '100%', height: 'auto', maxWidth: '100%' }}
+      />
     </div>
   );
 };
 
 export default MemberBenefits;
-
 
