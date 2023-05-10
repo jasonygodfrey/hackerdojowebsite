@@ -34,7 +34,7 @@ const Index = () => {
 
       
 
-      <Team />
+
 
 
 
@@ -42,7 +42,7 @@ const Index = () => {
 
       <FindUs/>
 
-      
+      <Team />
 
       <Partner />
 

@@ -189,14 +189,16 @@ const Footer = () => {
         <div className="copyright-area">
           <div className="container">
             <p>
-               &copy; {currentYear} Hacker Dojo. All Rights Reserved.        <a
+               &copy; {currentYear} Hacker Dojo. All Rights Reserved.    
+        {/*       <br></br>    
+               <a
         href="https://JasonGodfrey.dev"
         target="_blank"
         rel="noopener noreferrer"
         style={{ color: "#1c1c1c" }}
       >
         Developer Contact
-      </a>
+  </a> */}
             <br></br>
 
             </p>
