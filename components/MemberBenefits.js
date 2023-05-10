@@ -9,7 +9,8 @@ const MemberBenefits = () => {
         display: 'flex', 
         justifyContent: 'center', 
         alignItems: 'center', 
-        backgroundColor: 'black' 
+        backgroundColor: 'black', 
+        paddingTop: '50px',
       }}
     >
       <img
