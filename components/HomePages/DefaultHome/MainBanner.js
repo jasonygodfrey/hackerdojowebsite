@@ -117,20 +117,21 @@ const MainBanner = () => {
                           data-aos="fade-in"
                           data-aos-duration="1200"
                           data-aos-delay="200"
+                          style={{ textShadow: '2px 2px 4px #000' }}
                         >
                           THE BEST PLACE TO CONNECT WITH SILICON VALLEY
                         </h1>
 
                         <p
-                          style={paragraphStyle}
-                          data-aos="fade-in"
-                          data-aos-duration="1200"
-                          data-aos-delay="300"
-                        >
-                          Hacker Dojo is a creative hacker space where you can meet
-                          and collaborate with interesting people from all across
-                          the globe working on the future of technology.
-                        </p>
+  data-aos="fade-in"
+  data-aos-duration="1200"
+  data-aos-delay="300"
+  style={{ ...paragraphStyle, color: 'white', textShadow: '1px 1px 1px #000' }}
+>
+  Hacker Dojo is a creative hacker space where you can meet
+  and collaborate with interesting people from all across
+  the globe working on the future of technology.
+</p>
 
                         <Link
                           href="https://hackerdojo.spaces.nexudus.com/?public&"
