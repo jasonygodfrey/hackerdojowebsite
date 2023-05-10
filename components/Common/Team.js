@@ -62,7 +62,8 @@ const Team = () => {
           <div className="row justify-content-center">
             {teamMemberData &&
               teamMemberData.slice(0, 4).map((value, i) => (
-                <div className="col-lg-3 col-sm-6" key={i}>
+                <div className="col-lg-3 half-width-sm" key={i}>
+
                   <div
                     className="team-card text-center"
                     data-aos="fade-in"

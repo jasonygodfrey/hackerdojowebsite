@@ -5601,3 +5601,11 @@ h2 {
   max-width: 800px; /* Change this value to the desired maximum width */
   text-align: center;
 }
+
+
+@media (max-width: 576px) {
+  .half-width-sm {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
