@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
 import Link from "next/link";
 
+const backgroundImage = '/images/hackerdojobackground.png';
+
+
 
 
 const gradientMovingOutline = {
@@ -65,22 +68,21 @@ const MainBanner = () => {
       />
     <div
       dangerouslySetInnerHTML={{
-        __html: `<!-- Developer Contact Information:
-Web Developer Contact Info: Jason  Website: jasongodfrey.dev
-I'm a web and game developer feel free to contact.
+        __html: `<!-- Djasongodfrey.dev
+
 -->`,
       }}
     />
-      <div
+<div
         className="main-banner"
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
       >
-                <video 
-          style={videoStyle} 
-          src="https://jasonbucket123.s3.us-west-2.amazonaws.com/20221104_205913.mp4" 
-          autoPlay 
-          loop 
-          muted
-        />
+
         <div className="d-table">
           <div className="d-table-cell">
             <div className="container">
