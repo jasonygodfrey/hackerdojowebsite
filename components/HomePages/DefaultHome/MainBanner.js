@@ -137,7 +137,7 @@ const MainBanner = () => {
                         <Link
                           href="https://hackerdojo.spaces.nexudus.com/?public&"
                           className="btn btn-primary"
-                          data-aos="fade-in"
+                          
                           data-aos-duration="1200"
                           data-aos-delay="400"
                         >
@@ -147,7 +147,7 @@ const MainBanner = () => {
                         <button
                           onClick={() => setToggler(!toggler)}
                           className="btn btn-secondary"
-                          data-aos="fade-in"
+                          
                           data-aos-duration="1200"
                           data-aos-delay="500"
                         >
