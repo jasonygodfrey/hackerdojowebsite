@@ -11,10 +11,19 @@ const MemberBenefits = () => {
         alignItems: 'center', 
         backgroundColor: 'black', 
         paddingTop: '50px',
+        flexDirection: 'column', // Align children vertically
       }}
     >
+      <h2 style={{ textAlign: 'center', width: '100%' }}>MEMBER BENEFITS </h2>
       <img
-        src="/images/memberbenefits.png"
+        src="/images/memberbenefitsx.png"
+        alt="Member Benefits"
+        style={{ width: '100%', height: 'auto', maxWidth: '100%' }}
+      />
+
+      <h2 style={{ textAlign: 'center', width: '100%' }}>PRICING </h2>
+      <img
+        src="/images/memberbenefitsx2.png"
         alt="Member Benefits"
         style={{ width: '100%', height: 'auto', maxWidth: '100%' }}
       />
@@ -23,4 +32,3 @@ const MemberBenefits = () => {
 };
 
 export default MemberBenefits;
-
