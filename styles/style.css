@@ -307,7 +307,7 @@ a:hover, a:focus {
 }
 .section-title h2 {
   margin-bottom: 15px;
-  font-size: 50px;
+  font-size: 24px;
 }
 .section-title p {
   margin-bottom: 0;
@@ -5426,7 +5426,7 @@ span.new {
   background-color: black;
 }
 .partner-area.pt-100.pb-60 {
-  padding-top: 100px;
+  padding-top: 10px;
   padding-bottom: 60px;
   background-color: black;
 }
@@ -5458,7 +5458,7 @@ h2 {
   
 }
 .our-story-section h2 {
-  font-size: 50px; /* Adjust the value as desired */
+  font-size: 26px; /* Adjust the value as desired */
 }
 
 .video-container {
