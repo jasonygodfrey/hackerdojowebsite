@@ -10,6 +10,12 @@ import "react-accessible-accordion/dist/fancy-example.css";
 import "swiper/css";
 import "swiper/css/bundle";
 
+import { useEffect } from 'react';
+
+
+
+
+
 // Software Startup Home Style
 import "../styles/software-home-page.css";
 // App Showcase Home Style
@@ -36,11 +42,14 @@ import GoTop from "../components/Layouts/GoTop";
 
 function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
+    
     AOS.init();
   }, []);
   return (
     <>
       <Head>
+   
+
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
