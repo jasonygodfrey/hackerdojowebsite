@@ -25,20 +25,6 @@ const Index = () => {
 
       <MainBanner />
 
-
-
-    
-
-   
-
-     
-
-      
-
-
-
-
-
       <OurStory/>
 
     
