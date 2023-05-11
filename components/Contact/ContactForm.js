@@ -51,10 +51,9 @@ const ContactForm = () => {
     <>
       <div className="contact-form">
         <div className="contact-title">
-          <h2>Get In Touch</h2>
+          <h2></h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Request an event with out events coordinator. Email: Phone:
           </p>
         </div>
 

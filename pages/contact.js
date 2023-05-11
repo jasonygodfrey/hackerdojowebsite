@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarTwo from "../components/Layouts/NavbarTwo";
+import Navbar from "../components/Layouts/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import ContactInfo from "../components/Contact/ContactInfo";
 import ContactForm from "../components/Contact/ContactForm";
@@ -9,17 +9,15 @@ import Footer from "../components/Layouts/Footer";
 const Contact = () => {
   return (
     <>
-      <NavbarTwo />
+      <Navbar />
 
-      <PageBanner pageTitle="Contact Us" BGImage="/images/page-banner1.jpg" />
+      <PageBanner pageTitle="Contact Us" BGImage="/images/hackerdojobackground.png" />
 
       <ContactInfo />
 
       <ContactForm />
 
-      <div className="ptb-100">
-        <Newsletter />
-      </div>
+
 
       <Footer />
     </>

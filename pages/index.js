@@ -26,7 +26,7 @@ const Index = () => {
       <MainBanner />
 
       <OurStory/>
-
+<FindUs />
     
 
       <MemberBenefits/>

@@ -169,6 +169,17 @@ const Navbar = () => {
                   <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link
+                        href="/contact"
+                        className={`nav-link ${
+                          currentPath == "https://www.facebook.com/hackerdojo/" && "active"
+                        }`}
+                      >
+                        Contact Us
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link
                         href="https://www.facebook.com/hackerdojo/"
                         className={`nav-link ${
                           currentPath == "https://www.facebook.com/hackerdojo/" && "active"

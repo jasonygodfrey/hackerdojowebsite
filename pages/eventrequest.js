@@ -11,9 +11,9 @@ const eventrequest = () => {
     <>
       <Navbar />
 
-      <PageBanner pageTitle="EVENT REQUEST" BGImage="/images/page-banner1.jpg" />
+      <PageBanner pageTitle="EVENT REQUEST" BGImage="/images/hackerdojobackground.png" />
 
-      <ContactInfo />
+      
 
       <ContactForm />
 
