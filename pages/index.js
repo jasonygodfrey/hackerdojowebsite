@@ -21,7 +21,8 @@ import WorksStyleOne from "../components/Portfolio/WorksStyleOne";
 import ServicesStyleFour from "../components/Services/ServicesStyleFour";
 import AboutContent from "../components/About/AboutContent";
 import CtaAreaTwo from "../components/Common/CtaAreaTwo";
-
+import FeaturedServices from "../components/HomePages/StartupAgency/FeaturedServices";
+import Newsletter from "../components/Common/Newsletter";
 
 const Index = () => {
   return (
@@ -30,10 +31,10 @@ const Index = () => {
       <Navbar />
 
       <MainBanner />
-
+<FeaturedServices />
       
-      <WorksStyleOne />
-      <AboutContent />
+    
+      <About />
       <ServicesStyleFour />
 
    
@@ -46,6 +47,7 @@ const Index = () => {
       <Team />
       <Feedback />
 <CtaAreaTwo />
+<Newsletter />
       <Footer />
     </>
   );

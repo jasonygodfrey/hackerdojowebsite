@@ -30,9 +30,19 @@ const CtaAreaTwo = () => {
             data-aos-delay="300"
           >
             <Link href="/contact" className="custom-btn">
-              Contact Us
+              EVENTS
+            </Link>
+
+            <Link href="/contact" className="custom-btn">
+              CONTACT US
+            </Link>
+            <Link href="/contact" className="custom-btn">
+              TOUR THE DOJO
             </Link>
           </div>
+        
+
+
         </div>
       </div>
     </>

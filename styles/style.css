@@ -1318,6 +1318,10 @@ Featured Services CSS
   z-index: 1;
   margin-top: -85px;
   margin-bottom: -30px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 100%);
+
+ 
+  
 }
 .featured-services-area .featured-services-box {
   margin-top: 30px;
@@ -1330,7 +1334,7 @@ Featured Services CSS
 .featured-services-box {
   position: relative;
   z-index: 1;
-  background-color: #ffffff;
+  background-color: #ff0000;
   padding: 40px 30px;
   box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
   margin-bottom: 30px;
@@ -5440,7 +5444,7 @@ span.new {
   background-color: black;
 }
 .navbar.navbar-expand-md.navbar-light {
- background-color: rgba(0, 0, 0, 0.5); /* Change 0.5 to adjust the level of transparency */
+ background-color: black; /* Change 0.5 to adjust the level of transparency */
 }
 
 h2 {
