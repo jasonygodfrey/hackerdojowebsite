@@ -16,6 +16,12 @@ import OurStory from "../components/OurStory";
 import MemberBenefits from "../components/MemberBenefits";
 import Faces from "../components/Faces";
 import FindUs from "../components/FindUs";
+import PricingStyleTwo from "../components/Pricing/PricingStyleTwo";
+import WorksStyleOne from "../components/Portfolio/WorksStyleOne";
+import ServicesStyleFour from "../components/Services/ServicesStyleFour";
+import AboutContent from "../components/About/AboutContent";
+import CtaAreaTwo from "../components/Common/CtaAreaTwo";
+
 
 const Index = () => {
   return (
@@ -25,16 +31,21 @@ const Index = () => {
 
       <MainBanner />
 
-      <OurStory/>
-<FindUs />
-    
+      
+      <WorksStyleOne />
+      <AboutContent />
+      <ServicesStyleFour />
 
-      <MemberBenefits/>
+   
+      <PricingStyleTwo/>
+     
 
-      <Team />
-
+      
+      <FindUs />
       <Partner />
-
+      <Team />
+      <Feedback />
+<CtaAreaTwo />
       <Footer />
     </>
   );

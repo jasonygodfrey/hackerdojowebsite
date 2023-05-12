@@ -4,10 +4,10 @@ import { Autoplay, Pagination } from "swiper";
 
 const feedbacskData = [
   {
-    name: "John Smith",
-    designation: "CEO & Founder, Envato",
+    name: "",
+    designation: "Financial Times",
     feedbacskText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "The Soul of Silicon Valley.",
   },
   {
     name: "Oliver Smith",
@@ -53,7 +53,7 @@ const Feedback = () => {
                     <div className="single-feedback">
                       <p><q>{value.feedbacskText}</q></p>
 
-                      <div className="bar"></div>
+                      
 
                       <h3>{value.name}</h3>
                       <span>{value.designation}</span>

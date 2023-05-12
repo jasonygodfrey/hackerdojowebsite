@@ -21,12 +21,7 @@ const MemberBenefits = () => {
         style={{ width: '100%', height: 'auto', maxWidth: '100%' }}
       />
 
-      <h2 style={{ textAlign: 'center', width: '100%' }}>PRICING </h2>
-      <img
-        src="/images/memberbenefitsx2.png"
-        alt="Member Benefits"
-        style={{ width: '100%', height: 'auto', maxWidth: '100%' }}
-      />
+
     </div>
   );
 };

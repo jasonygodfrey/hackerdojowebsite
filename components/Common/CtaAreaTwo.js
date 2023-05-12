@@ -12,14 +12,14 @@ const CtaAreaTwo = () => {
               data-aos-duration="1200"
               data-aos-delay="100"
             >
-              So What is Next?
+              
             </span>
             <h3
               data-aos="fade-in"
               data-aos-duration="1200"
               data-aos-delay="200"
             >
-              Are You Ready? Let's get to work!
+              Are You Ready? Let's Hack the Planet!
             </h3>
           </div>
 

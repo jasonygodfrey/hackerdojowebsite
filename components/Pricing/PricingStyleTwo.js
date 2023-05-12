@@ -224,7 +224,7 @@ const PricingStyleTwo = () => {
       <div className="pricing-area pt-100 pb-70 bg-f9f6f6">
         <div className="container">
           <div className="section-title">
-            <h2>Choose The Pricing Plan</h2>
+            <h2>MEMBERSHIP PLANS</h2>
           </div>
 
           <div className="pricing-list-tab">

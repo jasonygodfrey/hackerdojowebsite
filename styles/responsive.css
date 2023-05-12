@@ -11,8 +11,8 @@
     font-size: 14px;
   }
   .ptb-100 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .pt-100 {
     padding-top: 50px;
@@ -24,7 +24,7 @@
     padding-bottom: 20px;
   }
   .section-title {
-    margin: -5px auto 30px;
+    
   }
   .section-title h2 {
     font-size: 26px;
@@ -1132,8 +1132,8 @@
     font-size: 14px;
   }
   .ptb-100 {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .pt-100 {
     padding-top: 70px;

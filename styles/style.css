@@ -109,8 +109,8 @@ button {
 }
 
 .ptb-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 00px;
+  padding-bottom: 00px;
 }
 
 .pt-100 {
@@ -118,7 +118,7 @@ button {
 }
 
 .pb-100 {
-  padding-bottom: 100px;
+  padding-bottom: 00px;
 }
 
 .pb-70 {
@@ -302,7 +302,7 @@ a:hover, a:focus {
 /* section-title */
 .section-title {
   text-align: center;
-  margin: -5px auto 60px;
+  margin: -85px auto 60px;
   max-width: 720px;
 }
 .section-title h2 {
@@ -368,11 +368,11 @@ Navbar CSS
   position: absolute;
   top: 0;
   left: 0;
-  padding-top: 15px;
+  
   width: 100%;
   z-index: 999;
   height: auto;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.833);
   font-family: 'JetBrains Mono', monospace;
 }
 .navbar-area nav ul {
@@ -385,7 +385,12 @@ Navbar CSS
   font-size: 28px;
 }
 .navbar-area nav .navbar-nav {
-  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: auto;
+  
 }
 .navbar-area nav .navbar-nav .nav-item {
   position: relative;
@@ -418,7 +423,7 @@ Navbar CSS
   position: absolute;
 }
 .navbar-area nav .navbar-nav .nav-item a:hover, .navbar-area nav .navbar-nav .nav-item a:focus, .navbar-area nav .navbar-nav .nav-item a.active {
-  color: #E13838;
+  color: #ffffff;
 }
 .navbar-area nav .navbar-nav .nav-item a:hover::before, .navbar-area nav .navbar-nav .nav-item a:focus::before, .navbar-area nav .navbar-nav .nav-item a.active::before {
   width: 60%;
@@ -463,7 +468,7 @@ Navbar CSS
   display: none;
 }
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #ff2c9c;
+  color: #000000;
 }
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
   position: absolute;
@@ -594,7 +599,7 @@ Navbar CSS
   padding-right: 15px;
 }
 .navbar-area.navbar-style-2 nav .navbar-nav .nav-item a {
-  color: #ffffff;
+  color: #ad1010;
 }
 .navbar-area.navbar-style-2.is-sticky .navbar-brand {
   color: #18181b;
@@ -1633,6 +1638,7 @@ Case Studies CSS
   padding-left: 30px;
   padding-right: 30px;
   max-width: 1920px;
+  background-color: black;
 }
 
 .single-case-studies {
@@ -2157,7 +2163,7 @@ Services CSS
   font-weight: 600;
 }
 .service-card-one h3 a {
-  color: #18181b;
+  color: #ececec;
 }
 .service-card-one h3 a:hover {
   color: #ff2c9c;
@@ -2166,13 +2172,13 @@ Services CSS
   margin: 0;
 }
 .service-card-one.white-bg {
-  background-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 40px 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   transition: all 0.5s ease;
 }
 .service-card-one.white-bg:hover {
-  background-color: #ff2c9c;
+  background-color: #fe2424;
   margin-top: -5px;
 }
 .service-card-one.white-bg:hover i {
@@ -2355,7 +2361,7 @@ Feedback CSS
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/images/feedback-bg.jpg);
+  background-color: black;
 }
 .feedback-area.feedback-style-3 {
   background-color: #263238;
@@ -3248,7 +3254,7 @@ CTA CSS
   text-transform: uppercase;
   font-size: 20px;
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 .cta-area-two .cta-content h3 {
   color: #ffffff;
@@ -5434,8 +5440,9 @@ span.new {
   background-color: black;
 }
 .navbar.navbar-expand-md.navbar-light {
-  background-color: black;
+ background-color: rgba(0, 0, 0, 0.5); /* Change 0.5 to adjust the level of transparency */
 }
+
 h2 {
   color: #f6897A;
 }
@@ -5609,3 +5616,4 @@ h2 {
     max-width: 50%;
   }
 }
+

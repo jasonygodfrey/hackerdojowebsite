@@ -4,7 +4,7 @@ import Link from "next/link";
 const servicesData = [
   {
     iconName: "pe-7s-comment bg-13c4a1",
-    title: "Business Consultancy",
+    title: "COMMUNITY",
     shortText:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
     viewDetails: "/service-details",
@@ -12,7 +12,7 @@ const servicesData = [
   },
   {
     iconName: "pe-7s-display2 bg-6610f2",
-    title: "Web Development",
+    title: "FREE EVENTS",
     shortText:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
     viewDetails: "/service-details",
@@ -20,7 +20,7 @@ const servicesData = [
   },
   {
     iconName: "pe-7s-light bg-ffb700",
-    title: "Digital Marketing",
+    title: "MEETING ROOMS",
     shortText:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
     viewDetails: "/service-details",
@@ -28,7 +28,7 @@ const servicesData = [
   },
   {
     iconName: "pe-7s-phone bg-fc3549",
-    title: "Mobile App Development",
+    title: "ELECTRONICS LAB",
     shortText:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
     viewDetails: "/service-details",
@@ -36,7 +36,7 @@ const servicesData = [
   },
   {
     iconName: "pe-7s-cart bg-00d280",
-    title: "eCommerce Development",
+    title: "3D PRINTING LAB",
     shortText:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
     viewDetails: "/service-details",
@@ -44,7 +44,7 @@ const servicesData = [
   },
   {
     iconName: "pe-7s-users bg-ff612f",
-    title: "Marketing & Reporting",
+    title: "LASER LAB",
     shortText:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
     viewDetails: "/service-details",
@@ -52,7 +52,7 @@ const servicesData = [
   },
   {
     iconName: "pe-7s-headphones bg-6610f2",
-    title: "IT Consultancy",
+    title: "24/7 ACCESS",
     shortText:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
     viewDetails: "/service-details",
@@ -60,7 +60,7 @@ const servicesData = [
   },
   {
     iconName: "pe-7s-users bg-13c4a1",
-    title: "Social Marketing",
+    title: "PRIVATE DESKS",
     shortText:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
     viewDetails: "/service-details",
@@ -68,7 +68,7 @@ const servicesData = [
   },
   {
     iconName: "pe-7s-comment bg-fc3549",
-    title: "Admin Support",
+    title: "CLASSES & MENTORSHIP",
     shortText:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
     viewDetails: "/service-details",

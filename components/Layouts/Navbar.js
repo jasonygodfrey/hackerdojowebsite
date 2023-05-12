@@ -73,13 +73,47 @@ const Navbar = () => {
               <li className="nav-item">
                   <Link
                     href="/startups"
-                    className={`nav-link ${
-                      currentPath == "https://givebutter.com/givingtuesdayhackerdojo" && "active"
+                    className={`nav-link center-text ${
+                      currentPath == "https://www.meetup.com/hackerdojo//" && "active"
                     }`}
-                    style={{ pointerEvents: "none", cursor: "not-allowed" }}
                   >
-                    STARTUPS
+                    FEATURED <span className="arrow-down">&#x25BE;</span>
                   </Link>
+                  <ul className="dropdown-menu">
+                  <li className="nav-item">
+                      <Link
+                        href="https://www.meetup.com/hackerdojo/"
+                        className={`nav-link center-text ${
+                          currentPath == "https://www.meetup.com/hackerdojo/" && "active"
+                        }`}
+                      >
+                        STARTUPS
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link
+                        href="https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit"
+                        className={`nav-link ${
+                          currentPath == "https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit" && "active"
+                        }`}
+                      >
+                        PROJECTS
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link
+                        href="https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit"
+                        className={`nav-link ${
+                          currentPath == "https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit" && "active"
+                        }`}
+                      >
+                        EVENTS BLOG
+                      </Link>
+                    </li>
+                   
+
+                    
+                  </ul>
                 </li>
 
 
@@ -91,7 +125,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link
                     href="https://www.meetup.com/hackerdojo/"
-                    className={`nav-link ${
+                    className={`nav-link center-text ${
                       currentPath == "https://www.meetup.com/hackerdojo//" && "active"
                     }`}
                   >
@@ -101,11 +135,11 @@ const Navbar = () => {
                   <li className="nav-item">
                       <Link
                         href="https://www.meetup.com/hackerdojo/"
-                        className={`nav-link ${
+                        className={`nav-link center-text ${
                           currentPath == "https://www.meetup.com/hackerdojo/" && "active"
                         }`}
                       >
-                        EVENTS
+                        MEETUP
                       </Link>
                     </li>
                     <li className="nav-item">
@@ -115,46 +149,65 @@ const Navbar = () => {
                           currentPath == "https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit" && "active"
                         }`}
                       >
-                        EVENT REQUEST
+                        REQUEST AN EVENT
                       </Link>
                     </li>
-
+                    <li className="nav-item">
+                      <Link
+                        href="https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit"
+                        className={`nav-link ${
+                          currentPath == "https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit" && "active"
+                        }`}
+                      >
+                        EVENTS BLOG
+                      </Link>
+                    </li>
                    
 
                     
                   </ul>
                 </li>
 
+
+
                 <li className="nav-item">
                   <Link
                     href="https://wiki.hackerdojo.com/index.php?title=Main_Page"
-                    className={`nav-link ${
-                      currentPath == "https://wiki.hackerdojo.com/index.php?title=Main_Page" && "active"
+                    className={`nav-link center-text ${
+                      currentPath == "https://www.meetup.com/hackerdojo//" && "active"
                     }`}
                   >
-                    ABOUT 
+                    ABOUT <span className="arrow-down">&#x25BE;</span>
                   </Link>
+                  <ul className="dropdown-menu">
+                  <li className="nav-item">
+                      <Link
+                        href="/about"
+                        className={`nav-link center-text ${
+                          currentPath == "https://www.meetup.com/hackerdojo/" && "active"
+                        }`}
+                      >
+                        HD WIKI
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link
+                        href="https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit"
+                        className={`nav-link ${
+                          currentPath == "https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit" && "active"
+                        }`}
+                      >
+                        DONATE
+                      </Link>
+                    </li>
+                   
 
-                  
-
-
-
-
-
-                  
+                    
+                  </ul>
                 </li>
 
 
-                <li className="nav-item">
-                  <Link
-                    href="https://givebutter.com/givingtuesdayhackerdojo"
-                    className={`nav-link ${
-                      currentPath == "https://givebutter.com/givingtuesdayhackerdojo" && "active"
-                    }`}
-                  >
-                    DONATE
-                  </Link>
-                </li>
+
 
 
                 <li className="nav-item">
