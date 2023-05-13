@@ -7,16 +7,16 @@ const featuredServicesData = [
   {
     iconName: "pe-7s-filter",
     title: "MEETUP EVENTS CALENDER",
-    bgText: "Ia",
+    bgText: "",
     shortText:
-      "Daily: Startups, Events, Lectures, Hackathons, DevHouses, tinkering, brainstorming, co-working, and more!",
+      "DAILY!: Startups, Events, Lectures, Hackathons, DevHouses, tinkering, brainstorming, co-working, and more!",
     viewDetails: "/service-details",
     backgroundImage: "images/pacifichackers.png",
   },
   {
     iconName: "pe-7s-display1",
     title: "⚡LIGHTNING TALKS⚡",
-    bgText: "Ba",
+    bgText: "",
     shortText:
       "Share your ideas, tech projects, practice your startup pitch, or anything a techie could want to learn!",
     viewDetails: "/service-details",
@@ -24,32 +24,35 @@ const featuredServicesData = [
   },
   {
     iconName: "pe-7s-plugin",
-    title: "Interaction Designer",
-    bgText: "Id",
+    title: "Python 101",
+    bgText: "",
     shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "Join our Python 101 Beginner Series, Learn with PyMentors! Perfect for those looking to improve their Python.",
     viewDetails: "/service-details",
+    backgroundImage: "images/python.png",
   },
   {
     iconName: "pe-7s-arc",
-    title: "Information Architect",
-    bgText: "Ia",
+    title: "Rust Meetup",
+    bgText: "",
     shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "Meet and collaborate with others using Rust! Rustaceans of all skill levels are welcome.",
     viewDetails: "/service-details",
+    backgroundImage: "images/rust.png",
   },
   {
     iconName: "pe-7s-diamond",
-    title: "Visual Designer",
-    bgText: "Vd",
+    title: "Computer Programming Club ",
+    bgText: "",
     shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "Join us for the Silicon Valley Computer Programming Club Meetup! Networking, discussion.",
     viewDetails: "/service-details",
+    backgroundImage: "images/computers.png",
   },
   {
     iconName: "pe-7s-helm",
     title: "Content Strategist",
-    bgText: "Cs",
+    bgText: "",
     shortText:
       "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
     viewDetails: "/service-details",
@@ -57,7 +60,7 @@ const featuredServicesData = [
   {
     iconName: "pe-7s-magnet",
     title: "UX Strategist",
-    bgText: "Ux",
+    bgText: "",
     shortText:
       "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
     viewDetails: "/service-details",
@@ -105,15 +108,16 @@ const FeaturedServices = () => {
                     >
                    
                         
-                        <h3>
+                        <h3 style={{textShadow: '2px 2px 4px #000000'}}>
                           <Link href={value.viewDetails}>{value.title}</Link>
                         </h3>
 
-                        <p>{value.shortText}</p>
+                        <p style={{textShadow: '2px 2px 4px #000000', color: 'white'}}>{value.shortText}</p>
 
                         <Link
                           href={value.viewDetails}
                           className="read-more-btn"
+                          style={{textShadow: '2px 2px 4px #000000', color: 'white'}}
                         >
                           Read More
                         </Link>
