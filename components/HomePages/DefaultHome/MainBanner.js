@@ -101,22 +101,7 @@ const MainBanner = () => {
                         </button>
                         <br></br>
                         <br></br>
-                        <button
-                          style={{
-                            backgroundColor: "rgba(128, 128, 128, 0.8)", // semi-transparent grey
-                            color: "white",
-                            border: "none",
-                            borderRadius: "5px",
-                            padding: "10px 15px",
-                            marginBottom: "20px",
-                            cursor: "text",
-                          }}
-                          data-aos="fade-in"
-                          data-aos-duration="1200"
-                          data-aos-delay="100"
-                        >
-                          EXPERIENCE THE CULTURE OF INNOVATION
-                        </button>
+
                       </div>
                     </div>
                   </div>

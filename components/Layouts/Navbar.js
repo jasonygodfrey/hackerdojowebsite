@@ -190,6 +190,7 @@ const Navbar = () => {
                         HD WIKI
                       </Link>
                     </li>
+
                     <li className="nav-item">
                       <Link
                         href="https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit"
@@ -217,7 +218,7 @@ const Navbar = () => {
                       currentPath == "https://www.facebook.com/hackerdojo/" && "active"
                     }`}
                   >
-                    CONTACT <span className="arrow-down">&#x25BE;</span>
+                    SOCIALS <span className="arrow-down">&#x25BE;</span>
                   </Link>
                   <ul className="dropdown-menu">
                     <li className="nav-item">
@@ -321,8 +322,19 @@ const Navbar = () => {
 
                     
                   </ul>
-                </li>
 
+                  
+                </li>
+                <li className="nav-item">
+                      <Link
+                        href="/about"
+                        className={`nav-link center-text ${
+                          currentPath == "https://www.meetup.com/hackerdojo/" && "active"
+                        }`}
+                      >
+                        CONTACT US
+                      </Link>
+                    </li>
               
               </ul>
               

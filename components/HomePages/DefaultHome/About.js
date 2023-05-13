@@ -45,6 +45,7 @@ const About = () => {
                 data-aos-delay="600"
               >
                 <div className="section-title">
+                  <br></br><br></br>
                   <h2>About Us</h2>
                   <p>
                   One of the unique features of Hacker Dojo is its open-door policy, which allows anyone to visit and use the space, regardless of their technical expertise or background. 
@@ -72,6 +73,22 @@ const About = () => {
                   <p>
                   Creating an inclusive and accessible community for tech enthusiasts to learn, play and build together.
                   </p>
+                  <button
+                          style={{
+                            backgroundColor: "rgba(128, 128, 128, 0.8)", // semi-transparent grey
+                            color: "white",
+                            border: "none",
+                            borderRadius: "5px",
+                            padding: "10px 15px",
+                            marginBottom: "20px",
+                            cursor: "text",
+                          }}
+                          data-aos="fade-in"
+                          data-aos-duration="1200"
+                          data-aos-delay="100"
+                        >
+                          EXPERIENCE THE CULTURE OF INNOVATION
+                        </button>
                 </div>
               </div>
             </div>

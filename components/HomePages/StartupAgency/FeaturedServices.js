@@ -6,19 +6,21 @@ import { Autoplay, Navigation } from "swiper";
 const featuredServicesData = [
   {
     iconName: "pe-7s-filter",
-    title: "Information Architect",
+    title: "MEETUP EVENTS CALENDER",
     bgText: "Ia",
     shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "Daily: Startups, Events, Lectures, Hackathons, DevHouses, tinkering, brainstorming, co-working, and more!",
     viewDetails: "/service-details",
+    backgroundImage: "images/pacifichackers.png",
   },
   {
     iconName: "pe-7s-display1",
-    title: "Business Analyst",
+    title: "⚡LIGHTNING TALKS⚡",
     bgText: "Ba",
     shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "Share your ideas, tech projects, practice your startup pitch, or anything a techie could want to learn!",
     viewDetails: "/service-details",
+    backgroundImage: "images/lightningtalks2.png",
   },
   {
     iconName: "pe-7s-plugin",
@@ -93,11 +95,15 @@ const FeaturedServices = () => {
               {featuredServicesData &&
                 featuredServicesData.map((value, i) => (
                   <SwiperSlide key={i}>
-                    <div className="col-lg-12">
-                      <div className="featured-services-box">
-                        <div className="icon">
-                          <i className={value.iconName}></i>
-                        </div>
+                  <div className="col-lg-12">
+                    <div className="featured-services-box"
+                      style={{ 
+                        backgroundImage: `url(${value.backgroundImage})`,
+                        backgroundSize: 'cover', 
+                        backgroundPosition: 'center'
+                      }}
+                    >
+                   
                         
                         <h3>
                           <Link href={value.viewDetails}>{value.title}</Link>

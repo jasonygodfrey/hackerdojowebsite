@@ -46,7 +46,7 @@ const Index = () => {
       <Partner />
       <Team />
       <Feedback />
-<CtaAreaTwo />
+
 <Newsletter />
       <Footer />
     </>

@@ -3,12 +3,19 @@ import React from "react";
 const Newsletter = () => {
   return (
     <>
-      <div className="newsletter-area">
-        <div className="container">
+      <div className="newsletter-area"
+              style={{ 
+                backgroundColor: '#000',
+              }}>
+        <div className="container"
+        >
+
+          
           <div 
             className="newsletter-inner-area" 
             style={{ 
-              backgroundImage: `url(/images/newsletter-bg.jpg)` 
+              backgroundImage: `url(/images/newsletter-bg.jpg)` ,
+              backgroundColor: '#000',
             }}
           >
             <div className="newsletter-content">
@@ -18,7 +25,7 @@ const Newsletter = () => {
                 data-aos-duration="1200"
                 data-aos-delay="100"
               >
-                Get Started Instantly!
+               
               </span>
 
               <h2
@@ -26,7 +33,7 @@ const Newsletter = () => {
                 data-aos-duration="1200"
                 data-aos-delay="200"
               >
-                Get the only new update from this newsletter
+                Stay up-to-date on our current events and news!
               </h2>
 
               <form 

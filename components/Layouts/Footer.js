@@ -190,7 +190,7 @@ const Footer = () => {
           <div className="container">
             <p>
                &copy; {currentYear} Hacker Dojo. All Rights Reserved.    
-           
+           <br></br>
                <a
         href="https://JasonGodfrey.dev"
         target="_blank"

@@ -72,7 +72,7 @@ h4, h5, h6 {
 p {
   line-height: 1.8;
   font-size: 15px;
-  color: #646464;
+  color: #b9b9b9;
   margin-bottom: 15px;
   font-family: 'JetBrains Mono', monospace;
 }
@@ -388,7 +388,7 @@ Navbar CSS
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 75px;
   margin-right: auto;
   
 }
@@ -1350,7 +1350,7 @@ Featured Services CSS
   transition: all 0.5s ease;
 }
 .featured-services-box h3 a {
-  color: #18181b;
+  color: #ffffff;
 }
 .featured-services-box h3 a:hover {
   color: #ffffff;
@@ -1414,7 +1414,7 @@ Featured Services CSS
 }
 
 .read-more-btn {
-  color: #18181b;
+  color: #eaeaeaa8;
   display: inline-block;
   position: relative;
   z-index: 1;
@@ -1444,9 +1444,15 @@ Featured Services CSS
   padding-left: 5px;
 }
 
+.featured-services-slides {
+  position: relative; /* add this */
+}
+
 .featured-services-slides .swiper-button-prev {
+  position: absolute; /* add this */
   left: 0;
-  top: 30px;
+  bottom: 0px; /* Adjust the position from bottom */
+
   background: #e5e5e5;
   width: 40px;
   height: 40px;
@@ -1459,8 +1465,9 @@ Featured Services CSS
   padding-right: 3px;
 }
 .featured-services-slides .swiper-button-next {
+  position: absolute; /* add this */
   right: 0;
-  top: 30px;
+  bottom: 30px; /* Adjust the position from bottom */
   background: #e5e5e5;
   width: 40px;
   height: 40px;
@@ -1473,7 +1480,7 @@ Featured Services CSS
   padding-left: 3px;
 }
 .featured-services-slides .swiper-button-prev:hover, .featured-services-slides .swiper-button-next:hover {
-  background-color: #ff2c9c;
+  background-color: #101010;
 }
 .featured-services-slides .swiper-button-prev:hover::after, .featured-services-slides .swiper-button-next:hover::after {
   color: #fff;
@@ -1744,7 +1751,7 @@ Case Studies CSS
   position: relative;
   margin-left: 20px;
   margin-right: 20px;
-  color: #646464;
+  color: #888888;
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
@@ -3408,6 +3415,8 @@ Subscribe CSS
   background-repeat: repeat;
   background-attachment: fixed;
   background-image: url(/images/feedback-bg.jpg);
+
+
 }
 
 .newsletter {
@@ -3415,6 +3424,8 @@ Subscribe CSS
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
+  
+ 
 }
 .newsletter h4 {
   text-transform: capitalize;
@@ -3509,6 +3520,7 @@ Subscribe CSS
   padding: 0 30px;
   font-weight: 600;
 }
+
 
 /*================================================
 Blog CSS
@@ -5431,8 +5443,8 @@ span.new {
 }
 
 .pt-100.pb-70 {
-  padding-top: 100px;
-  padding-bottom: 70px;
+  padding-top: 00px;
+  padding-bottom: 60px;
   background-color: black;
 }
 .partner-area.pt-100.pb-60 {
