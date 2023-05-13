@@ -90,7 +90,7 @@ const MainBanner = () => {
 
                         <Link
                           href="https://hackerdojo.spaces.nexudus.com/?public&"
-                          className="btn btn-primary"
+                          className="btn btn-primary btn-glow"
                           data-aos-duration="1200"
                           data-aos-delay="400"
                         >
@@ -99,7 +99,7 @@ const MainBanner = () => {
 
                         <button
                           onClick={handleTourClick}
-                          className="btn btn-secondary"
+                          className="btn btn-secondary btn-glow-red"
                           data-aos-duration="1200"
                           data-aos-delay="500"
                         >

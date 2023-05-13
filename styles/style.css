@@ -5633,3 +5633,23 @@ h2 {
   }
 }
 
+.btn-glow {
+  border: 2px solid white;
+  box-shadow: 0 0 10px red, 0 0 5px red;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.btn-glow:hover {
+  box-shadow: 0 0 20px red, 0 0 10px red;
+}
+
+.btn-glow-red {
+  border: 2px solid grey;
+  box-shadow: 0 0 10px white, 0 0 5px white;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.btn-glow-red:hover {
+  box-shadow: 0 0 20px white, 0 0 10px white;
+}
+
