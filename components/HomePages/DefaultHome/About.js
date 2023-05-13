@@ -21,7 +21,7 @@ const About = () => {
                 data-aos-delay="200"
               >
                 <img
-                  src="/images/about-img1.jpg"
+                  src="/images/hdcomedynight.jpg"
                   alt="image"
                   className="rounded-10"
                 />

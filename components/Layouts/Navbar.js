@@ -149,6 +149,17 @@ const Navbar = () => {
                           currentPath == "https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit" && "active"
                         }`}
                       >
+                        LIVESTREAM
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link
+                        href="https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit"
+                        className={`nav-link ${
+                          currentPath == "https://docs.google.com/forms/d/1fOr8c4IAWF2p8EIXT8p3xchXwRJ4i_Cw47e5twCceH8/edit" && "active"
+                        }`}
+                      >
                         REQUEST AN EVENT
                       </Link>
                     </li>

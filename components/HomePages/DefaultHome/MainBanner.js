@@ -50,8 +50,10 @@ const MainBanner = () => {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="main-banner-content">
-                    <div style={{ display: 'flex', width: '100%' }}>
-                      <div>
+                    <div style={{ 
+                      display: 'flex', 
+                      width: '100%' }}>
+                    <div style={{ textAlign: 'center' }}>
                         <span
                           data-aos="fade-in"
                           data-aos-duration="1200"
@@ -67,20 +69,24 @@ const MainBanner = () => {
                         >
                           THE BEST PLACE TO CONNECT WITH SILICON VALLEY
                         </h1>
+                   
 
                         <p
-                          data-aos="fade-in"
-                          data-aos-duration="1200"
-                          data-aos-delay="300"
-                          style={{
-                            color: "white",
-                            textShadow: "1px 1px 1px #000",
-                          }}
-                        >
-                          Hacker Dojo is a creative hacker space where you can
-                          meet and collaborate with interesting people from all
-                          across the globe working on the future of technology.
-                        </p>
+  data-aos="fade-in"
+  data-aos-duration="1200"
+  data-aos-delay="300"
+  style={{
+    color: "white",
+    textShadow: "1px 1px 1px #000",
+    maxWidth: "600px", // You can adjust this value as needed
+    lineHeight: "1.6", // You can adjust this value as needed
+    textAlign: 'center',
+    margin: 'auto',
+  }}
+>
+  Hacker Dojo is a creative hacker space where you can meet and collaborate with interesting people from all across the globe working on the future of technology.
+</p>
+<br></br>
 
                         <Link
                           href="https://hackerdojo.spaces.nexudus.com/?public&"
