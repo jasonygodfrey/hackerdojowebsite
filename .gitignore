@@ -65,4 +65,3 @@ build
 .yarn-integrity
 
 # dotenv environment variables file
-.env
