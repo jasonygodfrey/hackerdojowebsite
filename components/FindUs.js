@@ -14,8 +14,12 @@ const FindUs = () => {
           },
         }
       );
+      console.log(result.data); // Log the data received from the API
       setEvent(result.data[0]); // We assume the first event is the next one
+      console.log(event); // Log the value of event
+
     };
+    
 
     fetchData();
   }, []);
@@ -40,13 +44,16 @@ const FindUs = () => {
           <br />
 
           {event && (
-          <div className="event-info">
-            <h2>Our Next Event</h2>
-            <h3>{event.name}</h3>
-            <p>{new Date(event.time).toDateString()}</p>
-            <p>{event.description}</p>
-          </div>
-        )}
+  <div>
+    <h2>Our Next Event</h2>
+    <div>
+      <h3>{event.name}</h3>
+      <p>{new Date(event.time).toDateString()}</p>
+      <p>{event.description}</p>
+    </div>
+  </div>
+)}
+
         </div>
 
         <div className="map-container">
