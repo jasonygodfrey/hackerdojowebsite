@@ -1,6 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 
 const FindUs = () => {
+  const [event, setEvent] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const result = await axios.get(
+        "https://api.meetup.com/hackerdojo/events?&sign=true&photo-host=public&page=1",
+        {
+          headers: {
+            Authorization: `Bearer ${process.env.REACT_APP_MEETUP_API_TOKEN}`,
+          },
+        }
+      );
+      setEvent(result.data[0]); // We assume the first event is the next one
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <div className="our-story-section">
       <div className="where-to-find-us">
@@ -19,6 +38,15 @@ const FindUs = () => {
           <br />
           Bus 21: 1 min walk
           <br />
+
+          {event && (
+          <div className="event-info">
+            <h2>Our Next Event</h2>
+            <h3>{event.name}</h3>
+            <p>{new Date(event.time).toDateString()}</p>
+            <p>{event.description}</p>
+          </div>
+        )}
         </div>
 
         <div className="map-container">
@@ -35,6 +63,8 @@ const FindUs = () => {
             ></iframe>
           </div>
         </div>
+
+
       </div>
     </div>
   );

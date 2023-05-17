@@ -5653,3 +5653,14 @@ h2 {
   box-shadow: 0 0 20px white, 0 0 10px white;
 }
 
+.dropdown-menu {
+  position: absolute;
+  z-index: 1;
+  /* Other styling as desired */
+}
+
+
+.meetupimageContainer {
+  width: 1200px; /* adjust as needed */
+  max-width: 200%;
+}

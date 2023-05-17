@@ -34,7 +34,7 @@ const Index = () => {
 <FeaturedServices />
       
     
-      <About />
+     <About />
       <ServicesStyleFour />
 
    
